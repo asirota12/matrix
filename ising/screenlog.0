@@ -1,0 +1,960 @@
+Terminated
+[as4ae@node3 ising]$ runls[K[K[Kls
+[00m[01;34mdata[00m  [00mheader.h[00m  [00mising.cpp[00m  [00mMakefile[00m  [00mmultirun.cpp[00m  [01;32mrun[00m  [00mscreenlog.0[00m
+[m[as4ae@node3 ising]$ cd data[K[K[K[K[K[Kvim screenlog.0 
+[?1049h[?1h=[1;24r[34l[34h[?25h[23m[24m[0m[H[J[?25l[24;1H"screenlog.0" "screenlog.0" [noeol][dos] 4L, 237C[1;1HTerminated
+[as4ae@node3 ising]$ [34m^G[0mrun[34m^H^H^H[0mls[34m^[[0m[K[34m^H^[[0m[K[34m^H^[[0m[K[34m^G[0mls[34m^M
+^[[0m[00m[34m^[[0m[01;34mdata[34m^[[0m[00m  [34m^[[0m[00mheader.h[34m^[[0m[00m  [34m^[[0m[00mising.cpp[34m^[[0m[00m  [34m^[[0m[00mMaa[4;1Hkefile[34m^[[0m[00m  [34m^[[0m[00mmultirun.cpp[34m^[[0m[00m  [34m^[[0m[01;32mrun[34m^[[0m[00m  [34m^[[0m[00mscreenlog.0[34m^[[0m[[[5;1H00m
+[34m^[[0m[m[as4ae@node3 ising]$ cd d
+[1m[34m~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [0m[24;63H1,1           All[1;1H[34h[?25h[?25l[24;1H[K[24;1H:[34h[?25hq[?25l:q[34h[?25h[?25l[24;1H[K[24;1H[?1l>[34h[?25h[?1049l[as4ae@node3 ising]$ ls
+[00m[01;34mdata[00m  [00mheader.h[00m  [00mising.cpp[00m  [00mMakefile[00m  [00mmultirun.cpp[00m  [01;32mrun[00m  [00mscreenlog.0[00m
+[m[as4ae@node3 ising]$ v[Kcd s[Kdata/
+[as4ae@node3 data]$ ls
+[00m[00mcoolscreenthing.txt[00m  [00mdataPeri8.dat[00m          [00mdataPeriAdjoint4.dat[00m
+[00mdataPeri10.dat[00m       [00mdataPeri9.dat[00m          [00mdataPeriAdjoint5.dat[00m
+[00mdataPeri2.dat[00m        [00mdataPeriAdjoint10.dat[00m  [00mdataPeriAdjoint6.dat[00m
+[00mdataPeri3.dat[00m        [00mdataPeriAdjoint11.dat[00m  [00mdataPeriAdjoint7.dat[00m
+[00mdataPeri4.dat[00m        [00mdataPeriAdjoint12.dat[00m  [00mdataPeriAdjoint8.dat[00m
+[00mdataPeri5.dat[00m        [00mdataPeriAdjoint13.dat[00m  [00mdataPeriAdjoint9.dat[00m
+[00mdataPeri6.dat[00m        [00mdataPeriAdjoint2.dat[00m   [00mgsenergies.dat[00m
+[00mdataPeri7.dat[00m        [00mdataPeriAdjoint3.dat[00m
+[m[as4ae@node3 data]$ vim dataPeriAdjoint12.dat 
+[?1049h[?1h=[1;24r[34l[34h[?25h[23m[24m[0m[H[J[?25l[24;1H"dataPeriAdjoint12.dat" "dataPeriAdjoint12.dat" 1L, 1C[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [0m[24;63H1,0-1         All[1;1H[34h[?25h[?25l[24;1H[K[24;1H:[34h[?25hq[?25l:q[34h[?25h[?25l[24;1H[K[24;1H[?1l>[34h[?25h[?1049l[as4ae@node3 data]$ ls
+[00m[00mcoolscreenthing.txt[00m  [00mdataPeri8.dat[00m          [00mdataPeriAdjoint4.dat[00m
+[00mdataPeri10.dat[00m       [00mdataPeri9.dat[00m          [00mdataPeriAdjoint5.dat[00m
+[00mdataPeri2.dat[00m        [00mdataPeriAdjoint10.dat[00m  [00mdataPeriAdjoint6.dat[00m
+[00mdataPeri3.dat[00m        [00mdataPeriAdjoint11.dat[00m  [00mdataPeriAdjoint7.dat[00m
+[00mdataPeri4.dat[00m        [00mdataPeriAdjoint12.dat[00m  [00mdataPeriAdjoint8.dat[00m
+[00mdataPeri5.dat[00m        [00mdataPeriAdjoint13.dat[00m  [00mdataPeriAdjoint9.dat[00m
+[00mdataPeri6.dat[00m        [00mdataPeriAdjoint2.dat[00m   [00mgsenergies.dat[00m
+[00mdataPeri7.dat[00m        [00mdataPeriAdjoint3.dat[00m
+[m[as4ae@node3 data]$ rm a[KdataPeriAdjoint2[K12.dat 
+[as4ae@node3 data]$ y
+y: Command not found.
+[as4ae@node3 data]$ ls
+[00m[00mcoolscreenthing.txt[00m  [00mdataPeri8.dat[00m          [00mdataPeriAdjoint5.dat[00m
+[00mdataPeri10.dat[00m       [00mdataPeri9.dat[00m          [00mdataPeriAdjoint6.dat[00m
+[00mdataPeri2.dat[00m        [00mdataPeriAdjoint10.dat[00m  [00mdataPeriAdjoint7.dat[00m
+[00mdataPeri3.dat[00m        [00mdataPeriAdjoint11.dat[00m  [00mdataPeriAdjoint8.dat[00m
+[00mdataPeri4.dat[00m        [00mdataPeriAdjoint13.dat[00m  [00mdataPeriAdjoint9.dat[00m
+[00mdataPeri5.dat[00m        [00mdataPeriAdjoint2.dat[00m   [00mgsenergies.dat[00m
+[00mdataPeri6.dat[00m        [00mdataPeriAdjoint3.dat[00m
+[00mdataPeri7.dat[00m        [00mdataPeriAdjoint4.dat[00m
+[m[as4ae@node3 data]$ vim dataPeri13.[K[K[KAdjoint13.dat 
+[?1049h[?1h=[1;24r[34l[34h[?25h[23m[24m[0m[H[J[?25l[24;1H"dataPeriAdjoint13.dat" "dataPeriAdjoint13.dat" 1L, 1C[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [0m[24;63H1,0-1         All[1;1H[34h[?25h[?25l[24;1H[K[24;1H:[34h[?25hq[?25l:q[34h[?25h[?25l[24;1H[K[24;1H[?1l>[34h[?25h[?1049l[as4ae@node3 data]$ ls
+[00m[00mcoolscreenthing.txt[00m  [00mdataPeri8.dat[00m          [00mdataPeriAdjoint5.dat[00m
+[00mdataPeri10.dat[00m       [00mdataPeri9.dat[00m          [00mdataPeriAdjoint6.dat[00m
+[00mdataPeri2.dat[00m        [00mdataPeriAdjoint10.dat[00m  [00mdataPeriAdjoint7.dat[00m
+[00mdataPeri3.dat[00m        [00mdataPeriAdjoint11.dat[00m  [00mdataPeriAdjoint8.dat[00m
+[00mdataPeri4.dat[00m        [00mdataPeriAdjoint13.dat[00m  [00mdataPeriAdjoint9.dat[00m
+[00mdataPeri5.dat[00m        [00mdataPeriAdjoint2.dat[00m   [00mgsenergies.dat[00m
+[00mdataPeri6.dat[00m        [00mdataPeriAdjoint3.dat[00m
+[00mdataPeri7.dat[00m        [00mdataPeriAdjoint4.dat[00m
+[m[as4ae@node3 data]$ rm dataPeriAdjoint13.dat 
+[as4ae@node3 data]$ ls
+[00m[00mcoolscreenthing.txt[00m  [00mdataPeri7.dat[00m          [00mdataPeriAdjoint4.dat[00m
+[00mdataPeri10.dat[00m       [00mdataPeri8.dat[00m          [00mdataPeriAdjoint5.dat[00m
+[00mdataPeri2.dat[00m        [00mdataPeri9.dat[00m          [00mdataPeriAdjoint6.dat[00m
+[00mdataPeri3.dat[00m        [00mdataPeriAdjoint10.dat[00m  [00mdataPeriAdjoint7.dat[00m
+[00mdataPeri4.dat[00m        [00mdataPeriAdjoint11.dat[00m  [00mdataPeriAdjoint8.dat[00m
+[00mdataPeri5.dat[00m        [00mdataPeriAdjoint2.dat[00m   [00mdataPeriAdjoint9.dat[00m
+[00mdataPeri6.dat[00m        [00mdataPeriAdjoint3.dat[00m   [00mgsenergies.dat[00m
+[m[as4ae@node3 data]$ gnuplot
+
+	G N U P L O T
+	Version 4.4 patchlevel 2
+	last modified Wed Sep 22 12:10:34 PDT 2010
+	System: Linux 2.6.18-408.el5
+
+	Copyright (C) 1986-1993, 1998, 2004, 2007-2010
+	Thomas Williams, Colin Kelley and many others
+
+	gnuplot home:     http://www.gnuplot.info
+	faq, bugs, etc:   type "help seeking-assistance"
+	immediate help:   type "help"
+	plot window:      hit 'h'
+
+Terminal type set to 'wxt'
+gnuplot> s[Kcd ..[K[K[K[K[Kq
+[as4ae@node3 data]$ ls
+[00m[00mcoolscreenthing.txt[00m  [00mdataPeri7.dat[00m          [00mdataPeriAdjoint4.dat[00m
+[00mdataPeri10.dat[00m       [00mdataPeri8.dat[00m          [00mdataPeriAdjoint5.dat[00m
+[00mdataPeri2.dat[00m        [00mdataPeri9.dat[00m          [00mdataPeriAdjoint6.dat[00m
+[00mdataPeri3.dat[00m        [00mdataPeriAdjoint10.dat[00m  [00mdataPeriAdjoint7.dat[00m
+[00mdataPeri4.dat[00m        [00mdataPeriAdjoint11.dat[00m  [00mdataPeriAdjoint8.dat[00m
+[00mdataPeri5.dat[00m        [00mdataPeriAdjoint2.dat[00m   [00mdataPeriAdjoint9.dat[00m
+[00mdataPeri6.dat[00m        [00mdataPeriAdjoint3.dat[00m   [00mgsenergies.dat[00m
+[m[as4ae@node3 data]$ vim gsenergies.dat 
+[?1049h[?1h=[1;24r[34l[34h[?25h[23m[24m[0m[H[J[?25l[24;1H"gsenergies.dat" "gsenergies.dat" 10L, 111C[1;1H2[7C-2.82843
+[30m[43m3[0m[7C-[30m[43m3[0m.4641
+4[7C-5.22625
+5[7C-6.15537
+6[7C-7.72741
+7[7C-8.76257
+8[7C-10.2517
+9[7C-11.3426
+10      -12.7849
+11      -13.9103
+[1m[34m~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [0m[24;63H10,1          All[10;1H[34h[?25h[?25l[24;1H[K[24;1H:[15;1H[7mgsenergies.dat                                                10,1           All[0m[16;1H[1m[34m:[0m[33mwq[0m![16;5H[K[17;1H[1m[34m:[0m[33ms[0m[17;3H[K[18;1H[1m[34m:[0mWq[18;4H[K[19;1H[1m[34m:[0m[33mq[0m![19;4H[K[20;1H[1m[34m:[0m[33mwq[0m[20;4H[K[21;1H[1m[34m:[0m[33mq[0m[21;3H[K[22;1H[1m[34m:[0m[22;2H[K[23;1H[1m[7mcommand-line                                                  30,0-1         Bot[22;2H[34h[?25h[?25l[0m[24;1H[K[24;1H:[34h[?25hq[?25l:q[34h[?25h[?25l[24;1H[K[15;1H[1m[34m~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [0m[24;63H10,1          All[10;1H[34h[?25h[?25l[24;63H[K[24;1H:[34h[?25hq[?25l:q[34h[?25h[?25l[24;1H[K[24;1H[?1l>[34h[?25h[?1049l[as4ae@node3 data]$ ls
+[00m[00mcoolscreenthing.txt[00m  [00mdataPeri7.dat[00m          [00mdataPeriAdjoint4.dat[00m
+[00mdataPeri10.dat[00m       [00mdataPeri8.dat[00m          [00mdataPeriAdjoint5.dat[00m
+[00mdataPeri2.dat[00m        [00mdataPeri9.dat[00m          [00mdataPeriAdjoint6.dat[00m
+[00mdataPeri3.dat[00m        [00mdataPeriAdjoint10.dat[00m  [00mdataPeriAdjoint7.dat[00m
+[00mdataPeri4.dat[00m        [00mdataPeriAdjoint11.dat[00m  [00mdataPeriAdjoint8.dat[00m
+[00mdataPeri5.dat[00m        [00mdataPeriAdjoint2.dat[00m   [00mdataPeriAdjoint9.dat[00m
+[00mdataPeri6.dat[00m        [00mdataPeriAdjoint3.dat[00m   [00mgsenergies.dat[00m
+[m[as4ae@node3 data]$ gnuplot
+
+	G N U P L O T
+	Version 4.4 patchlevel 2
+	last modified Wed Sep 22 12:10:34 PDT 2010
+	System: Linux 2.6.18-408.el5
+
+	Copyright (C) 1986-1993, 1998, 2004, 2007-2010
+	Thomas Williams, Colin Kelley and many others
+
+	gnuplot home:     http://www.gnuplot.info
+	faq, bugs, etc:   type "help seeking-assistance"
+	immediate help:   type "help"
+	plot window:      hit 'h'
+
+Terminal type set to 'wxt'
+gnuplot> qfit f(x) 'gsenergies.dat' using 1:2 via m,c,ba,bgnuplot> f[19P(x)=m*x+3.14159*c/(6*x)+bgnuplot> f(x)=m*x+3gnuplot> f(x)=m*x+3.gnuplot> f(x)=m*x+3.1gnuplot> f(x)=m*x+3.14gnuplot> f(x)=m*x+3.141gnuplot> f(x)=m*x+3.1415gnuplot> f(x)=m*x+3.14159gnuplot> f(x)=m*x+3.14159*gnuplot> f(x)=m*x+3.14159*cgnuplot> f(x)=m*x+3.14159*c/gnuplot> f(x)=m*x+3.14159*c/(gnuplot> f(x)=m*x+3.14159*c/(6gnuplot> f(x)=m*x+3.14159*c/(6*gnuplot> f(x)=m*x+3.14159*c/(6*xgnuplot> f(x)=m*x+3.14159*c/(6*x)gnuplot> f(x)=m*x+3.14159*c/(6*x)+gnuplot> f(x)=m*x+3.14159*c/(6*x)+bi[K[K[K[1P*x+3.14159*c/(6*x)gnuplot> f(x)=-*x+3.14159*c/(6*x)gnuplot> f(x)=-1*x+3.14159*c/(6*x)gnuplot> f(x)=-1.*x+3.14159*c/(6*x)2*x+3.14159*c/(6*x)6*x+3.14159*c/(6*x)4*x+3.14159*c/(6*x)5*x+3.14159*c/(6*x)7*x+3.14159*c/(6*x)2*x+3.14159*c/(6*x)7*x+3.14159*c/(6*x)3*x+3.14159*c/(6*x)
+gnuplot> f(x)=-1.26457273*x+3.14159*c/(6*x)gnuplot> q[Kfit f(x) 'gsenergies.dat' using 1:2 via m,c,ba,bgnuplot> f[19P(x)=m*x+3.14159*c/(6*x)+bgnuplot> fit f(x) 'gsenergies.dat' via m,cgnuplot> ls[Kprint f(4)3)2)1)x)[6Pf(x)plot "gsenergies.dat",\/gnuplot> f(x)=m*x+3.14159*c/(6*x)[1Px)gnuplot> f(x)[Kplot "gsenergies.dat" using 2:1,\gnuplot> plot f(x)[K[5Pf(x)it f(x) 'gsenergies.dat' using 1:2 via m,bgnuplot> f(x)=m*x+b[K[Kit f(x) 'gsenergies.dat' using 1:2 via m,agnuplot> f[20P(x)=m*x+3.1415*a/(6*x)gnuplot> f(x)[Kplot "gsenergies.dat" using 2:1\[K // f(x)gnuplot> fit f(x) 'gsenergies.dat' using 1:2 via m,b,agnuplot> [6Pplot "gsenergies.dat" using 2:1 // f(x)[K\gnuplot> f(x)[K=m*x+3.1415*a/(6*x)gnuplot> fit f(x) 'gsenergies.dat' using 1:2 via m,agnuplot> f(x)[K=m*x+bit f(x) 'gsenergies.dat' using 1:2 via m,bgnuplot> f(x)[Kplot f(x)"gsenergies.dat" using 2:1,\gnuplot> f(x)[K=m*x+3.14159*c/(6x)*x)gnuplot> [1Pplot "gsenergies.dat",/\gnuplot> f(x)[Kprint f(x)1)2)3)4)ls[Kfit f(x) 'gsenergies.dat' via m,cgnuplot> f[7P(x)=m*x+3.14159*c/(6*x)+bgnuplot> fit f(x) 'gsenergies.dat' using 1:2 via m,a,bc,bgnuplot> q[Kf(x)=-1.26457273*x+3.14159*c/(6*x)gnuplot> [Kf(x)=-1.26457273*x+3.14159*c/(6*x)gnuplot> q[Kfit f(x) 'gsenergies.dat' using 1:2 via m,c,ba,bgnuplot> f[19P(x)=m*x+3.14159*c/(6*x)+bgnuplot> fit f(x) 'gsenergies.dat' using 1:2 via m,a,bc,bgnuplot> q[Kf(x)=-1.26457273*x+3.14159*c/(6*x)gnuplot> [Kf(x)=-1.26457273*x+3.14159*c/(6*x)gnuplot> q[Kfit f(x) 'gsenergies.dat' using 1:2 via m,c,b[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kset fit errorvat[Kriables
+gnuplot> set fit errorvariablesgnuplot> f(x)=-1.26457273*x+3.14159*c/(6*x)gnuplot> q[Kfit f(x) 'gsenergies.dat' using 1:2 via m,c,bgnuplot> fit f(x) 'gsenergies.dat' using 1:2 via m,c,b[K[Kgnuplot> fit f(x) 'gsenergies.dat' using 1:2 via m,[1Pc[1Pc
+
+
+ Iteration 0
+ WSSR        : 0.563539          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.123688
+
+initial set of free parameter values
+
+c               = 1
+/
+
+ Iteration 1
+ WSSR        : 0.310249          delta(WSSR)/WSSR   : -0.816407
+ delta(WSSR) : -0.25329          limit for stopping : 1e-05
+ lambda	  : 0.0123688
+
+resultant parameter values
+
+c               = -0.174601
+/
+
+ Iteration 2
+ WSSR        : 0.308138          delta(WSSR)/WSSR   : -0.00684999
+ delta(WSSR) : -0.00211075       limit for stopping : 1e-05
+ lambda	  : 0.00123688
+
+resultant parameter values
+
+c               = -0.291943
+/
+
+ Iteration 3
+ WSSR        : 0.308138          delta(WSSR)/WSSR   : -6.83632e-09
+ delta(WSSR) : -2.10653e-09      limit for stopping : 1e-05
+ lambda	  : 0.000123688
+
+resultant parameter values
+
+c               = -0.292061
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.308138
+rel. change during last iteration : -6.83632e-09
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.185034
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0342376
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+c               = -0.292061        +/- 0.4731       (162%)
+
+
+correlation matrix of the fit parameters:
+
+               c      
+c               1.000 
+gnuplot> fit f(x) 'gsenergies.dat' using 1:2 via cgnuplot> [Kc[Kprint c
+-0.292060771726944
+gnuplot> print c_err
+0.473068214384419
+gnuplot> print c_err[K[34@fit f(x) 'gsenergies.dat' using 1:2 viagnuplot> fit f(x) 'gsenergies.dat' using 1:2 via cgnuplot> [19Pset fit errorvariablesgnuplot> f(x)=-1.26457273*x+3.14159*c/(6*x)[1P*x+3.14159*c/(6*x)[1P*x+3.14159*c/(6*x)[1P*x+3.14159*c/(6*x)[1P*x+3.14159*c/(6*x)[1P*x+3.14159*c/(6*x)[1P*x+3.14159*c/(6*x)[1P*x+3.14159*c/(6*x)[1P*x+3.14159*c/(6*x)[1P*x+3.14159*c/(6*x)gnuplot> f(x)=-1[1P*x+3.14159*c/(6*x)gnuplot> f(x)=-m*x+3.14159*c/(6*x)gnuplot> f(x)=-m
+gnuplot> f(x)=-m*x+3.14159*c/(6*x)gnuplot> [14Pprint c_err[K[34@fit f(x) 'gsenergies.dat' using 1:2 viagnuplot> fit f(x) 'gsenergies.dat' using 1:2 via c,m
+
+
+ Iteration 0
+ WSSR        : 35.7921           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 5.0257
+
+initial set of free parameter values
+
+c               = -0.292061
+m               = 1
+/
+
+ Iteration 1
+ WSSR        : 0.388518          delta(WSSR)/WSSR   : -91.1247
+ delta(WSSR) : -35.4035          limit for stopping : 1e-05
+ lambda	  : 0.50257
+
+resultant parameter values
+
+c               = -0.294564
+m               = 1.25243
+/
+
+ Iteration 2
+ WSSR        : 0.307984          delta(WSSR)/WSSR   : -0.261487
+ delta(WSSR) : -0.0805337        limit for stopping : 1e-05
+ lambda	  : 0.050257
+
+resultant parameter values
+
+c               = -0.286449
+m               = 1.26513
+/
+
+ Iteration 3
+ WSSR        : 0.30794           delta(WSSR)/WSSR   : -0.000142714
+ delta(WSSR) : -4.39474e-05      limit for stopping : 1e-05
+ lambda	  : 0.0050257
+
+resultant parameter values
+
+c               = -0.265873
+m               = 1.26535
+/
+
+ Iteration 4
+ WSSR        : 0.30794           delta(WSSR)/WSSR   : -8.88873e-08
+ delta(WSSR) : -2.73719e-08      limit for stopping : 1e-05
+ lambda	  : 0.00050257
+
+resultant parameter values
+
+c               = -0.265346
+m               = 1.26535
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.30794
+rel. change during last iteration : -8.88873e-08
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.196195
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0384925
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+c               = -0.265346        +/- 0.6245       (235.4%)
+m               = 1.26535          +/- 0.01087      (0.859%)
+
+
+correlation matrix of the fit parameters:
+
+               c      m      
+c               1.000 
+m               0.596  1.000 
+gnuplot> fit f(x) 'gsenergies.dat' using 1:2 via c,mgnuplot> f[18P(x)=-m*x+3.14159*c/(6*x)gnuplot> [14Pprint c_err[K_err
+0.624497928297213
+gnuplot> print c_errgnuplot> fit f(x) 'gsenergies.dat' using 1:2 via c,mgnuplot> f[18P(x)=-m*x+3.14159*c/(6*x)gnuplot> print c[K[34@fit f(x) 'gsenergies.dat' using 1:2 viagnuplot> fit f(x) 'gsenergies.dat' using 1:2 via cgnuplot> [19Pset fit errorvariablesgnuplot> f(x)=-1.26457273*x+3.14159*c/(6*x)gnuplot> f(x)=-1.26457273[1P*x+3.14159*c/(6*x)[1P*x+3.14159*c/(6*x)[1P*x+3.14159*c/(6*x)[1P*x+3.14159*c/(6*x)[1P*x+3.14159*c/(6*x)[1P*x+3.14159*c/(6*x)
+gnuplot> f(x)=-1.26*x+3.14159*c/(6*x)gnuplot> [17Pprint c_errgnuplot> fit f(x) 'gsenergies.dat' using 1:2 via c,mgnuplot> fit f(x) 'gsenergies.dat' using 1:2 via c,m[K[K
+
+
+ Iteration 0
+ WSSR        : 0.322412          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.123688
+
+initial set of free parameter values
+
+c               = -0.265346
+/
+
+ Iteration 1
+ WSSR        : 0.317319          delta(WSSR)/WSSR   : -0.0160502
+ delta(WSSR) : -0.00509305       limit for stopping : 1e-05
+ lambda	  : 0.0123688
+
+resultant parameter values
+
+c               = -0.431906
+/
+
+ Iteration 2
+ WSSR        : 0.317277          delta(WSSR)/WSSR   : -0.00013377
+ delta(WSSR) : -4.2442e-05       limit for stopping : 1e-05
+ lambda	  : 0.00123688
+
+resultant parameter values
+
+c               = -0.448545
+/
+
+ Iteration 3
+ WSSR        : 0.317277          delta(WSSR)/WSSR   : -1.33503e-10
+ delta(WSSR) : -4.23572e-11      limit for stopping : 1e-05
+ lambda	  : 0.000123688
+
+resultant parameter values
+
+c               = -0.448562
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.317277
+rel. change during last iteration : -1.33503e-10
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.187758
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0352529
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+c               = -0.448562        +/- 0.48         (107%)
+
+
+correlation matrix of the fit parameters:
+
+               c      
+c               1.000 
+gnuplot> fit f(x) 'gsenergies.dat' using 1:2 via cgnuplot> f[13P(x)=-1.26*x+3.14159*c/(6*x)[1P*x+3.14159*c/(6*x)5*x+3.14159*c/(6*x)
+gnuplot> f(x)=-1.25*x+3.14159*c/(6*x)gnuplot> fit f(x) 'gsenergies.dat' using 1:2 via c
+
+
+ Iteration 0
+ WSSR        : 0.402658          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.123688
+
+initial set of free parameter values
+
+c               = -0.448562
+/
+
+ Iteration 1
+ WSSR        : 0.384886          delta(WSSR)/WSSR   : -0.0461747
+ delta(WSSR) : -0.017772         limit for stopping : 1e-05
+ lambda	  : 0.0123688
+
+resultant parameter values
+
+c               = -0.759698
+/
+
+ Iteration 2
+ WSSR        : 0.384738          delta(WSSR)/WSSR   : -0.000384937
+ delta(WSSR) : -0.0001481        limit for stopping : 1e-05
+ lambda	  : 0.00123688
+
+resultant parameter values
+
+c               = -0.79078
+/
+
+ Iteration 3
+ WSSR        : 0.384738          delta(WSSR)/WSSR   : -3.84169e-10
+ delta(WSSR) : -1.47805e-10      limit for stopping : 1e-05
+ lambda	  : 0.000123688
+
+resultant parameter values
+
+c               = -0.790811
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.384738
+rel. change during last iteration : -3.84169e-10
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.206758
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0427487
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+c               = -0.790811        +/- 0.5286       (66.84%)
+
+
+correlation matrix of the fit parameters:
+
+               c      
+c               1.000 
+gnuplot> fit f(x) 'gsenergies.dat' using 1:2 via cgnuplot> f[13P(x)=-1.25*x+3.14159*c/(6*x)[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kq
+         undefined variable: q
+
+gnuplot> ls
+         ^
+         invalid command
+
+gnuplot> q
+[as4ae@node3 data]$ ls
+[00m[00mcoolscreenthing.txt[00m  [00mdataPeri8.dat[00m          [00mdataPeriAdjoint6.dat[00m
+[00mdataPeri10.dat[00m       [00mdataPeri9.dat[00m          [00mdataPeriAdjoint7.dat[00m
+[00mdataPeri2.dat[00m        [00mdataPeriAdjoint10.dat[00m  [00mdataPeriAdjoint8.dat[00m
+[00mdataPeri3.dat[00m        [00mdataPeriAdjoint11.dat[00m  [00mdataPeriAdjoint9.dat[00m
+[00mdataPeri4.dat[00m        [00mdataPeriAdjoint2.dat[00m   [00mfit.log[00m
+[00mdataPeri5.dat[00m        [00mdataPeriAdjoint3.dat[00m   [00mgsenergies.dat[00m
+[00mdataPeri6.dat[00m        [00mdataPeriAdjoint4.dat[00m
+[00mdataPeri7.dat[00m        [00mdataPeriAdjoint5.dat[00m
+[m[as4ae@node3 data]$ cd ..
+[as4ae@node3 ising]$ run[K[K[Kls
+[00m[01;34mdata[00m  [00mheader.h[00m  [00mising.cpp[00m  [00mMakefile[00m  [00mmultirun.cpp[00m  [01;32mrun[00m  [00mscreenlog.0[00m
+[m[as4ae@node3 ising]$ vim multirun.cpp 
+[?1049h[?1h=[1;24r[34l[34h[?25h[23m[24m[0m[H[J[?25l[24;1H"multirun.cpp" "multirun.cpp" 11L, 101C[1;1H[35m#include[0m[31m<header.h>[0m
+
+[33musing[0m [32mnamespace[0m std;
+
+[32mint[0m main(){
+
+  [33mfor[0m ([32mint[0m i=[31m2[0m;i<=[31m20[0m;i++){
+    run(i);
+  }
+
+}
+[1m[34m~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [0m[24;63H7,3           All[7;3H[34h[?25h[?25l[24;1H[K[24;1H:[34h[?25hq[?25l:q[34h[?25h[?25l[24;1H[K[24;1H[?1l>[34h[?25h[?1049l[as4ae@node3 ising]$ vim multirun.cpp[16Dls[Kvim multirun.cpp[K[K[K[K[K[K[K[K[K[K[K[K ising.cpp 
+[?1049h[?1h=[1;24r[34l[34h[?25h[23m[24m[0m[H[J[?25l[24;1H"ising.cpp" "ising.cpp" 183L, 4298C[1;1H[35m#include [0m[31m<iostream>[0m
+[35m#include [0m[31m<Eigen/Dense>[0m
+[35m#include [0m[31m<Eigen/Eigenvalues>[0m
+[35m#include [0m[31m<fstream>[0m
+[35m#include [0m[31m<string>[0m
+[35m#include [0m[31m<complex>[0m
+[35m#include [0m[31m<unsupported/Eigen/KroneckerProduct>[0m
+
+[35m#include [0m[31m<sys/stat.h>[0m
+[35m#include [0m[31m<unistd.h>[0m
+
+[33musing[0m [32mnamespace[0m std;
+[33musing[0m [32mnamespace[0m Eigen;[17;1HMatrixXd zprod([32mint[0m spincurrent,[32mint[0m i,[32mint[0m spins, MatrixXd A){  [34m//gotta start counn[18;1Ht at 2 since it at minimum returns a 4x4[0m
+  MatrixXd sz([31m2[0m,[31m2[0m);
+  sz([31m0[0m,[31m0[0m)=[31m1[0m;
+  sz([31m1[0m,[31m0[0m)=[31m0[0m;
+  sz([31m0[0m,[31m1[0m)=[31m0[0m;
+  sz([31m1[0m,[31m1[0m)=-[31m1[0m;[24;63H1,1           Top[1;1H[34h[?25h[?25l[24;63H2,1           Top[2;1H[34h[?25h[?25l[24;63H3,1           Top[3;1H[34h[?25h[?25l[24;63H4,1           Top[4;1H[34h[?25h[?25l[24;63H5,1           Top[5;1H[34h[?25h[?25l[24;63H6,1           Top[6;1H[34h[?25h[?25l[24;63H7,1           Top[7;1H[34h[?25h[?25l[24;63H8,0-1         Top[8;1H[34h[?25h[?25l[24;63H9,1           Top[9;1H[34h[?25h[?25l[24;63H10,1          Top[10;1H[34h[?25h[?25l[24;63H11,0-1        Top[11;1H[34h[?25h[?25l[24;63H12,1          Top[12;1H[34h[?25h[?25l[24;63H13,1          Top[13;1H[34h[?25h[?25l[24;63H14,0-1        Top[14;1H[34h[?25h[?25l[24;63H15,1          Top[15;1H[34h[?25h[?25l[24;63H16,0-1        Top[16;1H[34h[?25h[?25l[24;63H17,1          Top[17;1H[34h[?25h[?25l[24;63H18,1          Top[19;1H[34h[?25h[?25l[24;63H19,1          Top[20;1H[34h[?25h[?25l[24;63H20,1          Top[21;1H[34h[?25h[?25l[24;63H21,1          Top[22;1H[34h[?25h[?25l[24;63H22,1          Top[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3HMatrixXd I([31m2[0m,[31m2[0m);[24;1H[K[24;63H23,1           0%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3HI([31m0[0m,[31m0[0m)=[31m1[0m;[24;63H[K[24;63H24,1           1%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3HI([31m1[0m,[31m0[0m)=[31m0[0m;[24;63H[K[24;63H25,1           1%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3HI([31m0[0m,[31m1[0m)=[31m0[0m;[24;63H[K[24;63H26,1           2%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3HI([31m1[0m,[31m1[0m)=[31m1[0m;[24;63H[K[24;63H27,1           3%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H28,1           3%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H[34m//base case[0m[24;63H[K[24;63H29,1           4%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H30,0-1         4%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H[33mif[0m (spincurrent==spins){[24;63H[K[24;63H31,1           5%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[33mif[0m(i+[31m1[0m==spincurrent||i==spincurrent){[24;63H[K[24;63H32,1           6%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;7H[33mreturn[0m kroneckerProduct(sz,A);[24;63H[K[24;63H33,1           6%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H}[24;63H[K[24;63H34,1           7%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;7H[33mreturn[0m kroneckerProduct(I,A);[24;63H[K[24;63H35,1           8%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H}[24;63H[K[24;63H36,1           8%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H37,1           9%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H[34m//recursize bit   [0m[24;63H[K[24;63H38,1           9%[23;1H[34h[?25h[?25l[1;23r[1;1H[2M[1;24r[23;3H[33mif[0m(spincurrent==i||spincurrent==i+[31m1[0m){[24;63H[K[24;63H39,0-1        10%[22;1H[34h[?25h[?25l[24;63H40,1          10%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;7H[33mreturn[0m zprod(spincurrent+[31m1[0m,i,spins,kroneckerProduct(sz,A));[24;63H[K[24;63H41,1          11%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H42,0-1        11%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H} [33melse[0m{[24;63H[K[24;63H43,1          12%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;7H[33mreturn[0m zprod(spincurrent+[31m1[0m,i,spins,kroneckerProduct(I,A));[24;63H[K[24;63H44,1          13%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H}[24;63H[K[24;63H45,1          13%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H46,0-1        14%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H[34m//cout<< "ya screwed up"<<endl; //didn't return if it got here [0m[24;63H[K[24;63H47,1          15%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H}[24;63H[K[24;63H48,1          15%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H49,0-1        16%[23;1H[34h[?25h[?25l[1;23r[1;1H[2M[1;24r[22;1HMatrixXd xprod([32mint[0m spincurrent,[32mint[0m i,[32mint[0m spins, MatrixXd A){  [34m//gotta start counn[23;1Ht at 2 since it at minimum returns a 4x4[0m[24;63H[K[24;63H50,1          17%[22;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3HMatrixXd sx([31m2[0m,[31m2[0m);[24;63H[K[24;63H51,1          18%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Hsx([31m0[0m,[31m0[0m)=[31m0[0m;[24;63H[K[24;63H52,1          18%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Hsx([31m1[0m,[31m0[0m)=[31m1[0m;[24;63H[K[24;63H53,1          19%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Hsx([31m0[0m,[31m1[0m)=[31m1[0m;[24;63H[K[24;63H54,1          19%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Hsx([31m1[0m,[31m1[0m)=[31m0[0m;[24;63H[K[24;63H55,1          20%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3HMatrixXd I([31m2[0m,[31m2[0m);[24;63H[K[24;63H56,1          21%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3HI([31m0[0m,[31m0[0m)=[31m1[0m;[24;63H[K[24;63H57,1          21%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3HI([31m1[0m,[31m0[0m)=[31m0[0m;[24;63H[K[24;63H58,1          22%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3HI([31m0[0m,[31m1[0m)=[31m0[0m;[24;63H[K[24;63H59,1          22%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3HI([31m1[0m,[31m1[0m)=[31m1[0m;[24;63H[K[24;63H60,1          23%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H[34m//base case[0m[24;63H[K[24;63H61,1          24%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H[33mif[0m (spincurrent==spins){[24;63H[K[24;63H62,1          24%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[33mif[0m(i==spincurrent){[24;63H[K[24;63H63,1          25%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;7H[33mreturn[0m kroneckerProduct(sx,A);[24;63H[K[24;63H64,1          26%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H}[24;63H[K[24;63H65,1          26%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;7H[33mreturn[0m kroneckerProduct(I,A);[24;63H[K[24;63H66,1          27%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H}[24;63H[K[24;63H67,1          27%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H68,1          28%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H[34m//recursize bit   [0m[24;63H[K[24;63H69,1          29%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H70,0-1        29%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H[33mif[0m(spincurrent==i){[24;63H[K[24;63H71,1          30%[23;1H[34h[?25h[?25l[1;23r[1;1H[2M[1;24r[22;5H[33mreturn[0m xprod(spincurrent+[31m1[0m,i,spins,kroneckerProduct(sx,A));
+  }[33melse[0m{[24;63H[K[24;63H72,1          31%[22;1H[34h[?25h[?25l[24;63H73,1          31%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[33mreturn[0m xprod(spincurrent+[31m1[0m,i,spins,kroneckerProduct(I,A));[24;63H[K[24;63H74,1          31%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H}[24;63H[K[24;63H75,1          32%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H76,0-1        33%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;2H[34m// cout<< "ya screwed up with z"<<endl; //didn't return if it got here [0m[24;63H[K[24;63H77,1          33%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H}[24;63H[K[24;63H78,1          34%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H79,0-1        35%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[32mbool[0m exists ([32mconst[0m string& name) {[24;63H[K[24;63H80,1          35%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H[32mstruct[0m stat buffer;[24;63H[K[24;63H81,1          36%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H[33mreturn[0m (stat (name.c_str(), &buffer) == [31m0[0m);[24;63H[K[24;63H82,1          36%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[20;34H[46m{
+
+
+}[0m[24;63H[K[24;63H83,1          37%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[19;34H{
+
+
+}[24;63H[K[24;63H84,0-1        38%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HMatrixXd Ham([32mint[0m spins){[24;63H[K[24;63H85,1          38%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H[32mint[0m a=[31m1[0m;[24;63H[K[24;63H86,1          39%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H[32mint[0m b=[31m1[0m;[24;63H[K[24;63H87,1          40%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3HMatrixXd sx([31m2[0m,[31m2[0m);[24;63H[K[24;63H88,1          40%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Hsx([31m0[0m,[31m0[0m)=[31m0[0m;[24;63H[K[24;63H89,1          41%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Hsx([31m1[0m,[31m0[0m)=[31m1[0m;[24;63H[K[24;63H90,1          41%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Hsx([31m0[0m,[31m1[0m)=[31m1[0m;[24;63H[K[24;63H91,1          42%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Hsx([31m1[0m,[31m1[0m)=[31m0[0m;[24;63H[K[24;63H92,1          43%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3HMatrixXd sz([31m2[0m,[31m2[0m);[24;63H[K[24;63H93,1          43%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Hsz([31m0[0m,[31m0[0m)=[31m1[0m;[24;63H[K[24;63H94,1          44%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Hsz([31m1[0m,[31m0[0m)=[31m0[0m;[24;63H[K[24;63H95,1          45%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Hsz([31m0[0m,[31m1[0m)=[31m0[0m;[24;63H[K[24;63H96,1          45%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Hsz([31m1[0m,[31m1[0m)=-[31m1[0m;[24;63H[K[24;63H97,1          46%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3HMatrixXd I([31m2[0m,[31m2[0m);[24;63H[K[24;63H98,1          46%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3HI([31m0[0m,[31m0[0m)=[31m1[0m;[24;63H[K[24;63H99,1          47%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3HI([31m1[0m,[31m0[0m)=[31m0[0m;[24;63H[K[24;63H100,1         48%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3HI([31m0[0m,[31m1[0m)=[31m0[0m;[24;63H[K[24;63H101,1         48%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3HI([31m1[0m,[31m1[0m)=[31m1[0m;[24;63H[K[24;63H102,1         49%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H103,0-1       50%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3HMatrixXd H=a*xprod([31m2[0m,[31m1[0m,spins,sx);[24;63H[K[24;63H104,1         50%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;2H[34m// cout<< H<<endl<<endl<<endl;[0m[24;63H[K[24;63H105,1         51%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3HH=H+b*zprod([31m2[0m,[31m1[0m,spins,sz);[24;63H[K[24;63H106,1         51%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;2H[34m// cout<< H<<endl<<endl<<endl;[0m[24;63H[K[24;63H107,1         52%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H[33mfor[0m ([32mint[0m j=[31m2[0m;j<spins;j++){[24;63H[K[24;63H108,1         53%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;5HH=H+ a*xprod([31m2[0m,j,spins,I) + b*zprod([31m2[0m,j,spins,I);[24;63H[K[24;63H109,1         53%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H[34m//  cout<< H<<endl<<endl<<endl;[0m[24;63H[K[24;63H110,1         54%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H}[24;63H[K[24;63H111,1         55%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3HH=H+ a*xprod([31m2[0m,spins,spins,I);[24;63H[K[24;63H112,1         55%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3HH=H+ b*zprod([31m2[0m,spins,spins,sz); [34m//this one is periodic boundary conditions [0m[24;63H[K[24;63H113,1         56%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H[33mreturn[0m H;[24;63H[K[24;63H114,1         56%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H}[24;63H[K[24;63H115,1         57%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H116,0-1       58%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hstring filename([32mint[0m spins){[24;63H[K[24;63H117,1         58%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Hstringstream ss;[24;63H[K[24;63H118,1         59%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Hss << spins;[24;63H[K[24;63H119,1         60%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Hstring str = ss.str();[24;63H[K[24;63H120,1         60%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H121,0-1       61%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Hstring file= string([31m"data/"[0m) + [31m"dataPeriAdjoint"[0m+str+[31m".dat"[0m;[24;63H[K[24;63H122,1         61%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H123,0-1       62%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H[33mif[0m(exists(file)){[24;63H[K[24;63H124,1         63%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;2H[34m//  cout << "file named "<<file<<" exists"<<endl; [0m[24;63H[K[24;63H125,1         63%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;4H[33mreturn[0m [31m"stop"[0m;[24;63H[K[24;63H126,1         64%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H} [33melse[0m{ [33mreturn[0m file;}[24;63H[K[24;63H127,1         65%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[12;27H[46m{[23;1H}[0m[24;63H[K[24;63H128,1         65%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[11;27H{[22;1H}[24;63H[K[24;63H129,0-1       66%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H130,0-1       66%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H131,0-1       67%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[32mint[0m run([32mint[0m spins){[24;63H[K[24;63H132,1         68%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H[32mtime_t[0m timer;[24;63H[K[24;63H133,1         68%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H[32mtime_t[0m timer1;[24;63H[K[24;63H134,1         69%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Htime(&timer);[24;63H[K[24;63H135,1         70%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H136,0-1       70%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H[32mint[0m n=pow([33mstatic_cast[0m<[32mdouble[0m>([31m2[0m),spins);[24;63H[K[24;63H137,1         71%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H138,1         71%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H139,1         72%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Hstring file = filename(spins);[24;63H[K[24;63H140,1         73%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H[33mif[0m (file==[31m"stop"[0m){[24;63H[K[24;63H141,1         73%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[33mreturn[0m [31m0[0m;[24;63H[K[24;63H142,1         74%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H}[24;63H[K[24;63H143,1         75%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H144,1         75%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Hofstream myfile;[24;63H[K[24;63H145,1         76%[23;1H[34h[?25h[?25l[1;23r[1;1H[2M[1;24r[22;3Hmyfile.open(file.c_str()); [34m//filename is a std::string, but the stream construu[23;1Hctor wants a plain C-style string (pointer to char)[0m[24;63H[K[24;63H146,1         77%[22;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Hmyfile<<endl;[24;63H[K[24;63H147,1         77%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H148,1         78%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;2H[34m// cout<<"spins are "<<spins<< " and n is "<<n<<endl;[0m[24;63H[K[24;63H149,1         78%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3HMatrixXd H=Ham(spins);[24;63H[K[24;63H150,1         79%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;2H[34m// EigenSolver<MatrixXd> solution(H);[0m[24;63H[K[24;63H151,1         80%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3HSelfAdjointEigenSolver<MatrixXd> solution(H);[24;63H[K[24;63H152,1         80%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Htime(&timer1);[24;63H[K[24;63H153,1         81%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H[32mdouble[0m seconds=difftime(timer1,timer);[24;63H[K[24;63H154,1         81%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[34m//  cout<<"solution made at"<< " time="<<seconds<<endl;[0m[24;63H[K[24;63H155,1         82%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Hmyfile<< [31m"it took "[0m<<seconds<<[31m" seconds."[0m<<endl;[24;63H[K[24;63H156,1         83%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H157,0-1       83%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3HVectorXd evals= solution.eigenvalues();[24;63H[K[24;63H158,1         84%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;2H[34m//maybe but VectorXcd[0m[24;63H[K[24;63H159,1         85%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H[32mfloat[0m smallest=[31m0[0m;[24;63H[K[24;63H160,1         85%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H[32mint[0m state=[31m0[0m;[24;63H[K[24;63H161,1         86%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H[33mfor[0m ([32mint[0m k=[31m0[0m;k<n;k++){[24;63H[K[24;63H162,1         86%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[33mif[0m (evals(k)<=smallest+[31m1[0m){[24;63H[K[24;63H163,1         87%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H[34m//    cout<<" close one at e= "<<evals(k)<< " and state "<<k<<endl;   [0m[24;63H[K[24;63H164,1         88%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;7Hmyfile<<[31m" close one at e= "[0m<<evals(k)<< [31m" and state "[0m<<k<<endl;[24;63H[K[24;63H165,1         88%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H}[24;63H[K[24;63H166,1         89%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;5H[33mif[0m (evals(k)<=smallest){[24;63H[K[24;63H167,1         90%[23;1H[34h[?25h[?25l[1;23r[1;1H[2M[1;24r[22;7Hsmallest=evals(k);[23;7Hstate=k;[24;63H[K[24;63H168,1         91%[22;1H[34h[?25h[?25l[24;63H169,1         91%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;4H[34m//   cout<<" new gs energy = "<< smallest<< " at state "<<state<<endl;[0m[24;63H[K[24;63H170,1         91%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;7Hmyfile<<[31m" new gs energy = "[0m<< smallest<< [31m" at state "[0m<<state<<endl;}[24;63H[K[24;63H171,1         92%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H}[24;63H[K[24;63H172,1         93%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;2H[34m// cout<<endl<<"ground state energy " <<smallest<<endl; [0m[24;63H[K[24;63H173,1         93%[23;1H[34h[?25h[?25l[1;23r[1;1H[2M[1;24r[22;2H[34m// cout<<"state= "<< state <<endl;//<<solution.eigenvectors().col(state)<<endl<<[23;1H<endl;[0m[24;63H[K[24;63H174,1         94%[22;1H[34h[?25h[?25l[24;63H173,1         94%[21;1H[34h[?25h[?25l[24;63H172,1         94%[20;1H[34h[?25h[?25l[24;63H173,1         94%[21;1H[34h[?25h[?25l[24;63H172,1         94%[20;1H[34h[?25h[?25l[24;63H171,1         94%[19;1H[34h[?25h[?25l[24;63H172,1         94%[20;1H[34h[?25h[?25l[24;63H173,1         94%[21;1H[34h[?25h[?25l[24;63H174,1         94%[22;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H175,1         95%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H[34m//myfile<<"these are the eigen values "<<endl<<evals<<endl<<endl;   [0m[24;63H[K[24;63H176,1         95%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;2H[34m// myfile<<"these are the eigen vectors "<<endl;[0m[24;63H[K[24;63H177,1         96%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;2H[34m// for (int q=0;q<n;q++){[0m[24;63H[K[24;63H178,1         96%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;5Hmyfile<<endl<<solution.eigenvectors().col(state)<<endl;[24;63H[K[24;63H179,1         97%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;2H[34m// }[0m[24;63H[K[24;63H180,1         98%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H181,0-1       98%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3Hmyfile.close();[24;63H[K[24;63H182,1         99%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H}[24;63H[K[24;63H183,1         Bot[23;1H[34h[?25h[?25l[24;63H182,1         Bot[22;1H[34h[?25h[?25l[24;63H181,0-1       Bot[21;1H[34h[?25h[?25l[24;63H180,1         Bot[20;1H[34h[?25h[?25l[24;63H179,1         Bot[19;1H[34h[?25h[?25l[24;63H[K[24;1H/[34h[?25h/[?25l//[34h[?25h<F1>[?25l//<F1>[34h[?25h<F1>[?25l//<F1><F1>[34h[?25h[?25l//<F1><F1[24;10H[K[24;1H//<F1><F1[34h[?25h[?25l//<F1><F[24;9H[K[24;1H//<F1><F[34h[?25h[?25l//<F1><[24;8H[K[24;1H//<F1><[34h[?25h[?25l//<F1>[24;7H[K[24;1H//<F1>[34h[?25h[?25l//<F1[24;6H[K[24;1H//<F1[34h[?25h[?25l//<F[24;5H[K[24;1H//<F[34h[?25h[?25l//<[24;4H[K[24;1H//<[34h[?25h[?25l//[24;3H[K[24;1H//[34h[?25h[?25l/[24;2H[K[24;1H/[34h[?25h [?25l[61C179,1         Bot[19;1H[34h[?25h[?25l[18;26H[34m[46m{[20;5H}[0m[24;63H178,26        Bot[18;26H[34h[?25h[?25l[18;9H[34m[46m([15C)[0m[34m{[20;5H}[0m[24;63H178,25        Bot[18;25H[34h[?25h[?25l[24;1H[1m-- INSERT --[0m[24;63H[K[24;63H178,25        Bot[18;25H[34h[?25h[?25l[18;9H[34m([15C)[0m[24;63H179,25        Bot[19;25H[34h[?25h[?25l[24;63H179,24        Bot[19;24H[34h[?25h[?25l[24;63H179,23        Bot[19;23H[34h[?25h[?25l[24;63H179,22        Bot[19;22H[34h[?25h[?25l[24;63H179,21        Bot[19;21H[34h[?25h[?25l[24;63H179,20        Bot[19;20H[34h[?25h[?25l[24;63H179,19        Bot[19;19H[34h[?25h[?25l[24;63H179,18        Bot[19;18H[34h[?25h[?25l[24;63H179,17        Bot[19;17H[34h[?25h[?25l[24;63H179,16        Bot[19;16H[34h[?25h[?25l[24;63H179,15        Bot[19;15H[34h[?25h[?25l[24;63H179,14        Bot[19;14H[34h[?25h[?25l[24;63H179,13        Bot[19;13H[34h[?25h[?25l[24;63H179,12        Bot[19;12H[34h[?25h[?25l[24;63H179,11        Bot[19;11H[34h[?25h[?25l[24;63H179,10        Bot[19;10H[34h[?25h[?25l[24;63H179,9         Bot[19;9H[34h[?25h[?25l[24;63H179,8         Bot[19;8H[34h[?25h[?25l[24;63H179,7         Bot[19;7H[34h[?25h[?25l[24;63H179,6         Bot[19;6H[34h[?25h[?25l[24;63H179,5         Bot[19;5H[34h[?25h[?25l[24;63H179,4         Bot[19;4H[34h[?25h[?25l[24;63H179,3         Bot[19;3H[34h[?25h[?25l/  myfile<<endl<<solution.eigenvectors().col(state)<<endl;[24;63H179,4         Bot[19;4H[34h[?25h[?25l[34m//  myfile<<endl<<solution.eigenvectors().col(state)<<endl;[0m[24;63H179,5         Bot[19;5H[34h[?25h[?25l[24;63H178,5         Bot[18;5H[34h[?25h[?25l[24;63H177,5         Bot[17;5H[34h[?25h[?25l[24;63H176,5         Bot[16;5H[34h[?25h[?25l[24;63H175,3         Bot[15;3H[34h[?25h[?25l[24;63H174,5         Bot[13;5H[34h[?25h[?25l[24;63H173,5         Bot[12;5H[34h[?25h[?25l[24;63H172,5         Bot[11;5H[34h[?25h[?25l[24;63H171,5         Bot[10;5H[34h[?25h[?25l[24;63H170,5         Bot[9;5H[34h[?25h[?25l[24;63H169,5         Bot[8;5H[34h[?25h[?25l[24;63H168,5         Bot[7;5H[34h[?25h[?25l[24;63H167,5         Bot[6;5H[34h[?25h[?25l[2;30H[46m{[5;5H}[0m[24;63H166,5         Bot[5;5H[34h[?25h[?25l[2;30H{[5;5H}[24;63H165,5         Bot[4;5H[34h[?25h[?25l[24;63H164,5         Bot[3;5H[34h[?25h[?25l[24;63H163,5         Bot[2;5H[34h[?25h[?25l[24;63H162,5         Bot[1;5H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3H[32mint[0m state=[31m0[0m;[24;1H[1m-- INSERT --[0m[24;63H[K[24;63H161,5         99%[1;5H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3H[32mfloat[0m smallest=[31m0[0m;[24;1H[1m-- INSERT --[0m[24;63H[K[24;63H160,5         98%[1;5H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;2H[34m//maybe but VectorXcd[0m[24;1H[1m-- INSERT --[0m[24;63H[K[24;63H159,5         98%[1;5H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3HVectorXd evals= solution.eigenvalues();[24;1H[1m-- INSERT --[0m[24;63H[K[24;63H158,5         97%[1;5H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[24;1H[1m-- INSERT --[0m[24;63H[K[24;63H157,1         96%[1;1H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3Hmyfile<< [31m"it took "[0m<<seconds<<[31m" seconds."[0m<<endl;[24;1H[1m-- INSERT --[0m[24;63H[K[24;63H156,5         96%[1;5H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m//  cout<<"solution made at"<< " time="<<seconds<<endl;[0m[24;1H[1m-- INSERT --[0m[24;63H[K[24;63H155,5         95%[1;5H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3H[32mdouble[0m seconds=difftime(timer1,timer);[24;1H[1m-- INSERT --[0m[24;63H[K[24;63H154,5         95%[1;5H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3Htime(&timer1);[24;1H[1m-- INSERT --[0m[24;63H[K[24;63H153,5         94%[1;5H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3HSelfAdjointEigenSolver<MatrixXd> solution(H);[23;1H[1m[34m@                                                                               [0m[24;1H[1m-- INSERT --[0m[24;63H[K[24;63H152,5         93%[1;5H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;2H[34m// EigenSolver<MatrixXd> solution(H);[0m[24;1H[1m-- INSERT --[0m[24;63H[K[24;63H151,5         93%[1;5H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3HMatrixXd H=Ham(spins);[24;1H[1m-- INSERT --[0m[24;63H[K[24;63H150,5         93%[1;5H[34h[?25h[?25l[24;63H151,5         93%[2;5H[34h[?25h[?25l[24;63H152,5         93%[3;5H[34h[?25h[?25l[24;63H153,5         93%[4;5H[34h[?25h[?25l[24;63H154,5         93%[5;5H[34h[?25h[?25l[24;63H155,5         93%[6;5H[34h[?25h[?25l[24;63H156,5         93%[7;5H[34h[?25h[?25l[24;63H157,1         93%[8;1H[34h[?25h[?25l[24;63H158,5         93%[9;5H[34h[?25h[?25l[24;63H159,5         93%[10;5H[34h[?25h[?25l[24;63H160,5         93%[11;5H[34h[?25h[?25l[24;63H161,5         93%[12;5H[34h[?25h[?25l[24;63H162,5         93%[13;5H[34h[?25h[?25l[24;63H163,5         93%[14;5H[34h[?25h[?25l[24;63H164,5         93%[15;5H[34h[?25h[?25l[24;63H165,5         93%[16;5H[34h[?25h[?25l[14;30H[46m{[17;5H}[0m[24;63H166,5         93%[17;5H[34h[?25h[?25l[14;30H{[17;5H}[24;63H167,5         93%[18;5H[34h[?25h[?25l[24;63H168,5         93%[19;5H[34h[?25h[?25l[24;63H169,5         93%[20;5H[34h[?25h[?25l[24;63H170,5         93%[21;5H[34h[?25h[?25l[24;63H171,5         93%[22;5H[34h[?25h[?25l[24;63H172,5         93%[23;5H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;2H[34m// cout<<endl<<"ground state energy " <<smallest<<endl; [0m
+[1m-- INSERT --[0m[24;63H[K[24;63H173,5         93%[23;5H[34h[?25h[?25l[1;23r[1;1H[2M[1;24r[22;2H[34m// cout<<"state= "<< state <<endl;//<<solution.eigenvectors().col(state)<<endl<<[23;1H<endl;[0m
+[1m-- INSERT --[0m[24;63H[K[24;63H174,5         94%[22;5H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[24;1H[1m-- INSERT --[0m[24;63H[K[24;63H175,3         95%[23;3H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;3H[34m//myfile<<"these are the eigen values "<<endl<<evals<<endl<<endl;   [0m
+[1m-- INSERT --[0m[24;63H[K[24;63H176,5         95%[23;5H[34h[?25h[?25l[24;63H175,3         95%[22;3H[34h[?25h[?25l[24;63H174,5         95%[20;5H[34h[?25h[?25l[24;63H173,5         95%[19;5H[34h[?25h[?25l[24;63H172,5         95%[18;5H[34h[?25h[?25l[24;63H171,5         95%[17;5H[34h[?25h[?25l[24;63H170,5         95%[16;5H[34h[?25h[?25l[24;63H169,5         95%[15;5H[34h[?25h[?25l[24;63H168,5         95%[14;5H[34h[?25h[?25l[24;63H167,5         95%[13;5H[34h[?25h[?25l[9;30H[46m{[12;5H}[0m[24;63H166,5         95%[12;5H[34h[?25h[?25l[9;30H{[12;5H}[24;63H165,5         95%[11;5H[34h[?25h[?25l[24;63H164,5         95%[10;5H[34h[?25h[?25l[24;63H163,5         95%[9;5H[34h[?25h[?25l[24;63H162,5         95%[8;5H[34h[?25h[?25l[24;63H161,5         95%[7;5H[34h[?25h[?25l[24;63H160,5         95%[6;5H[34h[?25h[?25l[24;63H159,5         95%[5;5H[34h[?25h[?25l[24;63H158,5         95%[4;5H[34h[?25h[?25l[24;63H157,1         95%[3;1H[34h[?25h[?25l[24;63H156,5         95%[2;5H[34h[?25h[?25l[24;63H155,5         95%[1;5H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3H[32mdouble[0m seconds=difftime(timer1,timer);[24;1H[1m-- INSERT --[0m[24;63H[K[24;63H154,5         95%[1;5H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3Htime(&timer1);[24;1H[1m-- INSERT --[0m[24;63H[K[24;63H153,5         94%[1;5H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3HSelfAdjointEigenSolver<MatrixXd> solution(H);[23;1H[1m[34m@                                                                               [0m[24;1H[1m-- INSERT --[0m[24;63H[K[24;63H152,5         93%[1;5H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;2H[34m// EigenSolver<MatrixXd> solution(H);[0m[24;1H[1m-- INSERT --[0m[24;63H[K[24;63H151,5         93%[1;5H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3HMatrixXd H=Ham(spins);[24;1H[1m-- INSERT --[0m[24;63H[K[24;63H150,5         93%[1;5H[34h[?25h[?25l[24;63H151,5         93%[2;5H[34h[?25h[?25l[24;63H152,5         93%[3;5H[34h[?25h[?25l[24;63H153,5         93%[4;5H[34h[?25h[?25l[24;63H154,5         93%[5;5H[34h[?25h[?25l[24;63H155,5         93%[6;5H[34h[?25h[?25l[24;63H156,5         93%[7;5H[34h[?25h[?25l[24;63H157,1         93%[8;1H[34h[?25h[?25l[24;63H158,5         93%[9;5H[34h[?25h[?25l[24;63H159,5         93%[10;5H[34h[?25h[?25l[24;63H160,5         93%[11;5H[34h[?25h[?25l[24;63H161,5         93%[12;5H[34h[?25h[?25l[24;63H162,5         93%[13;5H[34h[?25h[?25l[24;63H163,5         93%[14;5H[34h[?25h[?25l[24;63H164,5         93%[15;5H[34h[?25h[?25l[24;63H165,5         93%[16;5H[34h[?25h[?25l[14;30H[46m{[17;5H}[0m[24;63H166,5         93%[17;5H[34h[?25h[?25l[14;30H{[17;5H}[24;63H167,5         93%[18;5H[34h[?25h[?25l[24;63H168,5         93%[19;5H[34h[?25h[?25l[24;63H169,5         93%[20;5H[34h[?25h[?25l[24;63H170,5         93%[21;5H[34h[?25h[?25l[24;63H171,5         93%[22;5H[34h[?25h[?25l[24;63H172,5         93%[23;5H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[23;2H[34m// cout<<endl<<"ground state energy " <<smallest<<endl; [0m
+[1m-- INSERT --[0m[24;63H[K[24;63H173,5         93%[23;5H[34h[?25h[?25l[34m:cout<<endl<<"ground state energy " <<smallest<<endl; [0m[24;63H173,6         93%[23;6H[34h[?25h[?25l[34mqcout<<endl<<"ground state energy " <<smallest<<endl; [0m[24;63H173,7         93%[23;7H[34h[?25h[?25l[34mcout<<endl<<"ground state energy " <<smallest<<endl; [0m[23;59H[K[24;63H173,6         93%[23;6H[34h[?25h[?25l[34mcout<<endl<<"ground state energy " <<smallest<<endl; [0m[23;58H[K[24;63H173,5         93%[23;5H[34h[?25h[24;1H[K[23;4H[?25l[24;63H173,4         93%[23;4H[34h[?25h[?25l[24;63H[K[24;1H:[1;2H [32mfloat[0m smallest=[31m0[0m;[1;20H[K[2;3H[32mint[0m state=[31m0[0m;[2;15H[K[3;3H[33mfor[0m ([32mint[0m k=[31m0[0m;k<n;k++){
+    [33mif[0m (evals(k)<=smallest+[31m1[0m){[4;31H[K[5;1H  [34m//    cout<<" close one at e= "<<evals(k)<< " and state "<<k<<endl;   [0m
+      myfile<<[31m" close one at e= [0m[1C<<evals(k)<< [31m" and state "[0m<<k<<endl;
+    }
+    [33mif[0m (evals(k)<=smallest){[8;29H[K[9;2H     smallest=evals(k);
+      state=k;[10;15H[K[11;3H [34m//   cout<<" new gs energy = "<< smallest<< " at state "<<state<<endl;[0m
+      myfile<<[31m" new gs energy = "[0m<< smallest<< [31m" at state "[0m<<state<<endl;}
+  }[13;5H[K[14;2H[34m// cout<<endl<<"ground state energy " <<smallest<<endl; [0m[14;58H[K[15;1H[7mising.cpp [+]                                                 173,4          94%[0m[16;1H[1m[34m:[0m[33mwq[0m![16;5H[K[17;1H[1m[34m:[0m[33ms[0m[17;5H[K[18;1H[1m[34m:[0mWq[18;7H[K[19;1H[1m[34m:[0m[33mq[0m![19;7H[K[20;1H[1m[34m:[0m[33mwq[0m[20;4H[K[21;1H[1m[34m:[0m[33mq[0m[21;7H[K[22;1H[1m[34m:[0m[22;3H[K[23;1H[1m[7mcommand-line                                                  30,0-1         Bot[22;2H[34h[?25h[?25l[0m[24;1H[K[24;1H:[34h[?25hw[?25l:w[34h[?25hq[?25l:wq[34h[?25h[?25l[1m[37m[41mE11: Invalid in command-line window; <CR> executes, CTRL-C quits[22;2H[34h[?25h
+
+[?25l[0m[1;2H[34m// EigenSolver<MatrixXd> solution(H);[0m
+  SelfAdjointEigenSolver<MatrixXd> solution(H);
+  time(&timer1);[3;17H[K[4;3H[32mdouble[0m seconds=difftime(timer1,timer);
+[34m//  cout<<"solution made at"<< " time="<<seconds<<endl;[0m[5;56H[K[6;3Hmyfile<< [31m"it took "[0m<<seconds<<[1C[31m seconds."[0m<<endl;[6;51H[K[7;5H[K[8;3HVectorXd evals= solution.eigenvalues();
+ [34m//maybe but VectorXcd[0m[9;23H[K[10;3H[32mfloat[0m smallest=[31m0[0m;
+  [32mint[0m state=[31m0[0m;[11;15H[K[12;3H[33mfor[0m ([32mint[0m k=[31m0[0m;k<n;k++){[12;25H[K[13;3H  [33mif[0m (evals(k)<=smallest+[31m1[0m){
+  [1C[34m/    cout<<" close one at e= "<<evals(k)<< " and state "<<k<<endl;   [0m
+      myfile<<[31m" close one at e= "[0m<<evals(k)<< [31m" and state "[0m<<k<<endl;   [15;73H[K[16;1H    }
+    [33mif[0m (evals(k)<=smallest){
+      smallest=evals(k);
+      state=k;
+   [34m//   cout<<" new gs energy = "<< smallest<< " at state "<<state<<endl;[0m
+      myfile<<[31m" new gs energy = "[0m<< smallest<< [31m" at state "[0m<<state<<endl;}
+  }
+ [34m// cout<<endl<<"ground state energy " <<smallest<<endl; [0m[23;58H[K[24;63H173,4         93%[23;4H[34h[?25h[?25l[24;1H[K[24;1H:[34h[?25hw[?25l:w[34h[?25hq[?25l:wq[34h[?25h[?25l"ising.cpp" "ising.cpp" 183L, 4300C written
+[?1l>[34h[?25h[?1049l[as4ae@node3 ising]$ make
+g++ -o run ising.cpp multirun.cpp -I. -I ../eigen-eigen-10219c95fe65/
+ising.cpp: In function ‘int run(int)’:
+ising.cpp:137: warning: converting to ‘int’ from ‘double’
+[as4ae@node3 ising]$ ma[K[Kvi m Makefile 
+[?1049h[?1h=[1;24r[34l[34h[?25h[23m[24m[0m[H[J[?25l[24;1H"Makefile" "Makefile" 4L, 103C[1;1H[36mrun :[0m ising.cpp multirun.cpp
+[31m        g++ -o run ising.cpp multirun.cpp -I. -I ../eigen-eigen-10219c95fe65/
+        [0m
+
+[1m[34m~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [0m[24;63H1,1           All[1;1H[34h[?25h[?25l[24;1H[K[24;1H:[34h[?25hq[?25l:q[34h[?25h[?25l:[24;2H[K[24;1H:[34h[?25h [?25l[61C1,1           All[1;1H[34h[?25h[?25l[24;63H1,2           All[1;2H[34h[?25h[?25l[24;63H1,3           All[1;3H[34h[?25h[?25l[24;63H1,4           All[1;4H[34h[?25h[?25l[24;1H[1m-- INSERT --[0m[24;63H[K[24;63H1,4           All[1;4H[34h[?25h[?25l[36m :[0m ising.cpp multirun.cp[1;28H[K[24;63H1,3           All[1;3H[34h[?25h[?25l[36m :[0m ising.cpp multirun.cp[1;27H[K[24;63H1,2           All[1;2H[34h[?25h[?25l : ising.cpp multirun.cp[1;26H[K[2;1H        g++ -o run ising.cpp multirun.cpp -I. -I ../eigen-eigen-10219c95fe65/
+        [24;63H1,1           All[1;1H[34h[?25h[?25l[36md :[0m ising.cpp multirun.cpp
+[31m        g++ -o run ising.cpp multirun.cpp -I. -I ../eigen-eigen-10219c95fe65/
+        [0m[24;63H1,2           All[1;2H[34h[?25h[?25l[36mo :[0m ising.cpp multirun.cpp[24;63H1,3           All[1;3H[34h[?25h[?25l[36mi :[0m ising.cpp multirun.cpp[24;63H1,4           All[1;4H[34h[?25h[?25l[36mi :[0m ising.cpp multirun.cpp[24;63H1,5           All[1;5H[34h[?25h[?25l[36mt :[0m ising.cpp multirun.cpp[24;63H1,6           All[1;6H[34h[?25h[?25l[36m :[0m ising.cpp multirun.cp[1;30H[K[24;63H1,5           All[1;5H[34h[?25h[?25l[36m :[0m ising.cpp multirun.cp[1;29H[K[24;63H1,4           All[1;4H[34h[?25h[24;1H[K[1;3H[?25l[24;63H1,3           All[1;3H[34h[?25h[?25l[24;63H1,4           All[1;4H[34h[?25h[?25l[24;1H[1m-- INSERT --[0m[24;63H[K[24;63H1,4           All[1;4H[34h[?25h[?25l[36mt :[0m ising.cpp multirun.cpp[24;63H1,5           All[1;5H[34h[?25h[24;1H[K[1;4H[?25l[24;63H1,4           All[1;4H[34h[?25h[?25l[24;63H1,5           All[1;5H[34h[?25h[?25l[24;63H1,6           All[1;6H[34h[?25h[?25l[24;63H1,5           All[1;5H[34h[?25h[?25l[24;63H1,6           All[1;6H[34h[?25h[?25l[24;1H[1m-- INSERT --[0m[24;63H[K[24;63H1,6           All[1;6H[34h[?25h[?25l[36m:[0m ising.cpp multirun.cp[1;29H[K[24;63H1,5           All[1;5H[34h[?25h[?25l[1C[36m:[0m ising.cpp multirun.cpp[24;63H1,6           All[1;6H[34h[?25h[?25lq: ising.cpp multirun.cpp[24;63H1,7           All[1;7H[34h[?25h[?25l[2;23r[2;1H[L[1;24r[1;7H[K[2;1H: ising.cpp multirun.cpp[24;1H[1m-- INSERT --[0m[24;63H[K[24;63H2,1           All[2;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[1;1H[36mdoit:[0mq: ising.cpp multirun.cpp[23;1H[1m[34m~                                                                               [0m[24;1H[1m-- INSERT --[0m[24;63H[K[24;63H1,7           All[1;7H[34h[?25h[?25l[36m:[0m ising.cpp multirun.cp[1;30H[K[24;63H1,6           All[1;6H[34h[?25h[?25l": ising.cpp multirun.cpp[24;63H1,7           All[1;7H[34h[?25h[?25l[36m:[0m ising.cpp multirun.cp[1;30H[K[24;63H1,6           All[1;6H[34h[?25h[?25l ising.cpp multirun.cp[1;29H[K[24;63H1,5           All[1;5H[34h[?25h[?25l[1C[36m:[0m ising.cpp multirun.cpp[24;63H1,6           All[1;6H[34h[?25h[?25lw: ising.cpp multirun.cpp[24;63H1,7           All[1;7H[34h[?25h[?25l[36m:[0m ising.cpp multirun.cp[1;30H[K[24;63H1,6           All[1;6H[34h[?25h[?25l ising.cpp multirun.cp[1;29H[K[24;63H1,5           All[1;5H[34h[?25h[24;1H[K[1;4H[?25l[24;63H1,4           All[1;4H[34h[?25h[?25l[24;63H[K[24;1H:[34h[?25hw[?25l:w[34h[?25hq[?25l:wq[34h[?25h[?25l"Makefile" "Makefile" 4L, 103C written
+[?1l>[34h[?25h[?1049l[as4ae@node3 ising]$ la[Ks
+[00m[01;34mdata[00m  [00mheader.h[00m  [00mising.cpp[00m  [00mMakefile[00m  [00mmultirun.cpp[00m  [01;32mrun[00m  [00mscreenlog.0[00m
+[m[as4ae@node3 ising]$ rm MA[Kakefile [K[K[K[K[K[K[K[K[K[Krm run
+[as4ae@node3 ising]$ make
+g++ -o run ising.cpp multirun.cpp -I. -I ../eigen-eigen-10219c95fe65/
+ising.cpp: In function ‘int run(int)’:
+ising.cpp:137: warning: converting to ‘int’ from ‘double’
+[as4ae@node3 ising]$ run 'make[K[K[K[Kdoit'
+ls
+q
+exit
+
+[as4ae@node3 ising]$ ls
+[00m[01;34mdata[00m  [00mheader.h[00m  [00mising.cpp[00m  [00mMakefile[00m  [00mmultirun.cpp[00m  [01;32mrun[00m  [00mscreenlog.0[00m
+[m[as4ae@node3 ising]$ condr[Kor_q
+
+
+-- Submitter: node3.galileo : <192.168.100.103:47477> : node3.galileo
+ ID      OWNER            SUBMITTED     RUN_TIME ST PRI SIZE CMD               
+356507.0   nice-user.vck8 11/9  17:17   0+00:00:00 H  0   0.0  simpex 356507 0   
+467506.0   dak5nb          4/8  11:05   0+01:44:22 R  0   664.1 condor_matlab-1604
+467508.0   dak5nb          4/8  12:54   0+01:05:00 R  0   927.7 condor_matlab-1604
+467510.0   dak5nb          4/8  13:02   0+00:56:47 R  0   498.0 condor_matlab-1604
+
+4 jobs; 0 idle, 3 running, 1 held
+[as4ae@node3 ising]$ condor_submit run
+Submitting job(s)
+ERROR: Failed to parse command file (line 4).
+[as4ae@node3 ising]$ ru[K[Kcondor_submit run[K[K[Kdoit
+
+ERROR: Failed to open command file (No such file or directory)
+[as4ae@node3 ising]$ ls
+[00m[01;34mdata[00m  [00mheader.h[00m  [00mising.cpp[00m  [00mMakefile[00m  [00mmultirun.cpp[00m  [01;32mrun[00m  [00mscreenlog.0[00m
+[m[as4ae@node3 ising]$ vim Makefile 
+[?1049h[?1h=[1;24r[34l[34h[?25h[23m[24m[0m[H[J[?25l[24;1H"Makefile" "Makefile" 4L, 103C[1;1H[36mdoit:[0m ising.cpp multirun.cpp
+[31m        g++ -o run ising.cpp multirun.cpp -I. -I ../eigen-eigen-10219c95fe65/
+        [0m
+
+[1m[34m~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [0m[24;63H1,1           All[1;1H[34h[?25h[?25l[24;63H4,0-1         All[4;1H[34h[?25h[?25l[24;1H[K[24;1H:[34h[?25hw[?25l:w[34h[?25hq[?25l:wq[34h[?25h[?25l"Makefile" "Makefile" 4L, 103C written
+[?1l>[34h[?25h[?1049l[as4ae@node3 ising]$ ls
+[00m[01;34mdata[00m  [00mheader.h[00m  [00mising.cpp[00m  [00mMakefile[00m  [00mmultirun.cpp[00m  [01;32mrun[00m  [00mscreenlog.0[00m
+[m[as4ae@node3 ising]$ rm rin[K[Kun
+[as4ae@node3 ising]$ ls
+[00m[01;34mdata[00m  [00mheader.h[00m  [00mising.cpp[00m  [00mMakefile[00m  [00mmultirun.cpp[00m  [00mscreenlog.0[00m
+[m[as4ae@node3 ising]$ make
+g++ -o run ising.cpp multirun.cpp -I. -I ../eigen-eigen-10219c95fe65/
+ising.cpp: In function ‘int run(int)’:
+ising.cpp:137: warning: converting to ‘int’ from ‘double’
+[as4ae@node3 ising]$ ls
+[00m[01;34mdata[00m  [00mheader.h[00m  [00mising.cpp[00m  [00mMakefile[00m  [00mmultirun.cpp[00m  [01;32mrun[00m  [00mscreenlog.0[00m
+[m[as4ae@node3 ising]$ condor_submit run
+Submitting job(s)
+ERROR: Failed to parse command file (line 4).
+[as4ae@node3 ising]$ run [K[K[Kls
+[00m[01;34mdata[00m  [00mheader.h[00m  [00mising.cpp[00m  [00mMakefile[00m  [00mmultirun.cpp[00m  [01;32mrun[00m  [00mscreenlog.0[00m
+[m[as4ae@node3 ising]$ vim make[K[K[Kultirun.cpp [K[K[K[K[K[K[K[K[K[K[KA[K[KMakefile 
+[?1049h[?1h=[1;24r[34l[34h[?25h[23m[24m[0m[H[J[?25l[24;1H"Makefile" "Makefile" 4L, 103C[1;1H[36mdoit:[0m ising.cpp multirun.cpp
+[31m        g++ -o run ising.cpp multirun.cpp -I. -I ../eigen-eigen-10219c95fe65/
+        [0m
+
+[1m[34m~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [0m[24;63H4,0-1         All[4;1H[34h[?25h[?25l[24;63H3,1-8         All[3;8H[34h[?25h[?25l[24;63H2,1-8         All[2;8H[34h[?25h[?25l[24;1H[1m-- INSERT --[0m[24;13H[K[24;63H2,1           All[2;1H[34h[?25h[?25l[24;63H2,2-9         All[2;9H[34h[?25h[?25l[24;63H2,3-10        All[2;10H[34h[?25h[?25l[24;63H2,4-11        All[2;11H[34h[?25h[?25l[24;63H2,5-12        All[2;12H[34h[?25h[?25l[24;63H2,6-13        All[2;13H[34h[?25h[?25l[24;63H2,7-14        All[2;14H[34h[?25h[?25l[24;63H2,8-15        All[2;15H[34h[?25h[?25l[24;63H2,9-16        All[2;16H[34h[?25h[?25l[24;63H2,10-17       All[2;17H[34h[?25h[?25l[24;63H2,11-18       All[2;18H[34h[?25h[?25l[24;63H2,12-19       All[2;19H[34h[?25h[?25l[31m ising.cpp multirun.cpp -I. -I ../eigen-eigen-10219c95fe65/[0m[2;77H[K[24;63H2,11-18       All[2;18H[34h[?25h[?25l[31m ising.cpp multirun.cpp -I. -I ../eigen-eigen-10219c95fe65/[0m[2;76H[K[24;63H2,10-17       All[2;17H[34h[?25h[?25l[31m ising.cpp multirun.cpp -I. -I ../eigen-eigen-10219c95fe65/[0m[2;75H[K[24;63H2,9-16        All[2;16H[34h[?25h[?25l[31md ising.cpp multirun.cpp -I. -I ../eigen-eigen-10219c95fe65/[0m[24;63H2,10-17       All[2;17H[34h[?25h[?25l[31mo ising.cpp multirun.cpp -I. -I ../eigen-eigen-10219c95fe65/[0m[24;63H2,11-18       All[2;18H[34h[?25h[?25l[31mi ising.cpp multirun.cpp -I. -I ../eigen-eigen-10219c95fe65/[0m[24;63H2,12-19       All[2;19H[34h[?25h[?25l[31mt ising.cpp multirun.cpp -I. -I ../eigen-eigen-10219c95fe65/[0m[24;63H2,13-20       All[2;20H[34h[?25h[24;1H[K[2;19H[?25l[24;63H2,12-19       All[2;19H[34h[?25h[?25l[24;63H[K[24;1H:[34h[?25hw[?25l:w[34h[?25hq[?25l:wq[34h[?25h[?25l"Makefile" "Makefile" 4L, 104C written
+[?1l>[34h[?25h[?1049l[as4ae@node3 ising]$ make
+g++ -o doit ising.cpp multirun.cpp -I. -I ../eigen-eigen-10219c95fe65/
+rmising.cpp: In function ‘int run(int)’:
+ising.cpp:137: warning: converting to ‘int’ from ‘double’
+rm   m run
+[as4ae@node3 ising]$ rmrm run
+rmrm: Command not found.
+[as4ae@node3 ising]$ rm run
+[as4ae@node3 ising]$ ls
+[00m[01;34mdata[00m  [01;32mdoit[00m  [00mheader.h[00m  [00mising.cpp[00m  [00mMakefile[00m  [00mmultirun.cpp[00m  [00mscreenlog.0[00m
+[m[as4ae@node3 ising]$ condor_submit doit
+Submitting job(s)
+ERROR: Failed to parse command file (line 4).
+[as4ae@node3 ising]$ ls
+[00m[01;34mdata[00m  [01;32mdoit[00m  [00mheader.h[00m  [00mising.cpp[00m  [00mMakefile[00m  [00mmultirun.cpp[00m  [00mscreenlog.0[00m
+[m[as4ae@node3 ising]$ run doit
+Log will be written into condor_doit-160408140541-CYozbXj8Kf-node3.467511.log.
+[as4ae@node3 ising]$ ls
+[00m[01;32mcondor_doit-160408140541-CYozbXj8Kf.cmd[00m                 [01;32mdoit[00m
+[00mcondor_doit-160408140541-CYozbXj8Kf-node3.467511.0.err[00m  [00mheader.h[00m
+[00mcondor_doit-160408140541-CYozbXj8Kf-node3.467511.0.out[00m  [00mising.cpp[00m
+[00mcondor_doit-160408140541-CYozbXj8Kf-node3.467511.log[00m    [00mMakefile[00m
+[01;32mcondor_doit-160408140541-CYozbXj8Kf.sh[00m                  [00mmultirun.cpp[00m
+[01;34mdata[00m                                                    [00mscreenlog.0[00m
+[m[as4ae@node3 ising]$ ls
+[00m[01;32mcondor_doit-160408140541-CYozbXj8Kf.cmd[00m                 [01;32mdoit[00m
+[00mcondor_doit-160408140541-CYozbXj8Kf-node3.467511.0.err[00m  [00mheader.h[00m
+[00mcondor_doit-160408140541-CYozbXj8Kf-node3.467511.0.out[00m  [00mising.cpp[00m
+[00mcondor_doit-160408140541-CYozbXj8Kf-node3.467511.log[00m    [00mMakefile[00m
+[01;32mcondor_doit-160408140541-CYozbXj8Kf.sh[00m                  [00mmultirun.cpp[00m
+[01;34mdata[00m                                                    [00mscreenlog.0[00m
+[m[as4ae@node3 ising]$ ls
+[00m[01;32mcondor_doit-160408140541-CYozbXj8Kf.cmd[00m                 [01;32mdoit[00m
+[00mcondor_doit-160408140541-CYozbXj8Kf-node3.467511.0.err[00m  [00mheader.h[00m
+[00mcondor_doit-160408140541-CYozbXj8Kf-node3.467511.0.out[00m  [00mising.cpp[00m
+[00mcondor_doit-160408140541-CYozbXj8Kf-node3.467511.log[00m    [00mMakefile[00m
+[01;32mcondor_doit-160408140541-CYozbXj8Kf.sh[00m                  [00mmultirun.cpp[00m
+[01;34mdata[00m                                                    [00mscreenlog.0[00m
+[m[as4ae@node3 ising]$ condor_q
+
+
+-- Submitter: node3.galileo : <192.168.100.103:47477> : node3.galileo
+ ID      OWNER            SUBMITTED     RUN_TIME ST PRI SIZE CMD               
+356507.0   nice-user.vck8 11/9  17:17   0+00:00:00 H  0   0.0  simpex 356507 0   
+467506.0   dak5nb          4/8  11:05   0+01:50:46 R  0   664.1 condor_matlab-1604
+467508.0   dak5nb          4/8  12:54   0+01:11:24 R  0   927.7 condor_matlab-1604
+467510.0   dak5nb          4/8  13:02   0+01:03:11 R  0   498.0 condor_matlab-1604
+467511.0   as4ae           4/8  14:05   0+00:00:20 R  0   9.8  condor_doit-160408
+
+5 jobs; 0 idle, 4 running, 1 held
+[as4ae@node3 ising]$ ls[K[Kls
+[00m[01;32mcondor_doit-160408140541-CYozbXj8Kf.cmd[00m                 [01;32mdoit[00m
+[00mcondor_doit-160408140541-CYozbXj8Kf-node3.467511.0.err[00m  [00mheader.h[00m
+[00mcondor_doit-160408140541-CYozbXj8Kf-node3.467511.0.out[00m  [00mising.cpp[00m
+[00mcondor_doit-160408140541-CYozbXj8Kf-node3.467511.log[00m    [00mMakefile[00m
+[01;32mcondor_doit-160408140541-CYozbXj8Kf.sh[00m                  [00mmultirun.cpp[00m
+[01;34mdata[00m                                                    [00mscreenlog.0[00m
+[m[as4ae@node3 ising]$ vim ising.cpp 
+[?1049h[?1h=[1;24r[34l[34h[?25h[23m[24m[0m[H[J[?25l[24;1H"ising.cpp" "ising.cpp" 183L, 4300C[1;3H[33mfor[0m ([32mint[0m k=[31m0[0m;k<n;k++){
+    [33mif[0m (evals(k)<=smallest+[31m1[0m){
+  [34m//    cout<<" close one at e= "<<evals(k)<< " and state "<<k<<endl;   [0m[4;7Hmyfile<<[31m" close one at e= "[0m<<evals(k)<< [31m" and state "[0m<<k<<endl;
+    }
+    [33mif[0m (evals(k)<=smallest){[7;7Hsmallest=evals(k);[8;7Hstate=k;
+   [34m//   cout<<" new gs energy = "<< smallest<< " at state "<<state<<endl;[0m[10;7Hmyfile<<[31m" new gs energy = "[0m<< smallest<< [31m" at state "[0m<<state<<endl;}
+  }
+ [34m// cout<<endl<<"ground state energy " <<smallest<<endl; 
+[0m [34m// cout<<"state= "<< state <<endl;//<<solution.eigenvectors().col(state)<<endl<<[14;1H<endl;
+
+[0m  [34m//myfile<<"these are the eigen values "<<endl<<evals<<endl<<endl;   
+[0m [34m// myfile<<"these are the eigen vectors "<<endl;
+[0m [34m// for (int q=0;q<n;q++){
+[0m  [34m//  myfile<<endl<<solution.eigenvectors().col(state)<<endl;
+[0m [34m// }[0m
+
+  myfile.close();
+}[24;63H173,2         Bot[12;2H[34h[?25h[?25l[24;63H172,2         Bot[11;2H[34h[?25h[?25l[24;63H171,2         Bot[10;2H[34h[?25h[?25l[24;63H170,2         Bot[9;2H[34h[?25h[?25l[24;63H169,2         Bot[8;2H[34h[?25h[?25l[24;63H168,2         Bot[7;2H[34h[?25h[?25l[24;63H167,2         Bot[6;2H[34h[?25h[?25l[24;63H166,2         Bot[5;2H[34h[?25h[?25l[24;63H165,2         Bot[4;2H[34h[?25h[?25l[24;63H164,2         Bot[3;2H[34h[?25h[?25l[24;63H163,2         Bot[2;2H[34h[?25h[?25l[24;63H162,2         Bot[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3H[32mint[0m state=[31m0[0m;[24;1H[K[24;63H161,2         99%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3H[32mfloat[0m smallest=[31m0[0m;[24;63H[K[24;63H160,2         98%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;2H[34m//maybe but VectorXcd[0m[24;63H[K[24;63H159,2         98%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3HVectorXd evals= solution.eigenvalues();[24;63H[K[24;63H158,2         97%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H157,0-1       96%[1;1H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3Hmyfile<< [31m"it took "[0m<<seconds<<[31m" seconds."[0m<<endl;[24;63H[K[24;63H156,2         96%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[34m//  cout<<"solution made at"<< " time="<<seconds<<endl;[0m[24;63H[K[24;63H155,2         95%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3H[32mdouble[0m seconds=difftime(timer1,timer);[24;63H[K[24;63H154,2         95%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3Htime(&timer1);[24;63H[K[24;63H153,2         94%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3HSelfAdjointEigenSolver<MatrixXd> solution(H);[23;1H[1m[34m@                                                                               [0m[24;63H[K[24;63H152,2         93%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;2H[34m// EigenSolver<MatrixXd> solution(H);[0m[24;63H[K[24;63H151,2         93%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3HMatrixXd H=Ham(spins);[24;63H[K[24;63H150,2         93%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;2H[34m// cout<<"spins are "<<spins<< " and n is "<<n<<endl;[0m[24;63H[K[24;63H149,2         92%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H148,2         91%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3Hmyfile<<endl;[24;63H[K[24;63H147,2         91%[1;2H[34h[?25h[?25l[1;23r[1;1H[2L[1;24r[1;3Hmyfile.open(file.c_str()); [34m//filename is a std::string, but the stream construu[2;1Hctor wants a plain C-style string (pointer to char)[0m[24;63H[K[24;63H146,2         90%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3Hofstream myfile;[24;63H[K[24;63H145,2         89%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H144,2         88%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3H}[24;63H[K[24;63H143,2         88%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;5H[33mreturn[0m [31m0[0m;[24;63H[K[24;63H142,2         87%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3H[33mif[0m (file==[31m"stop"[0m){[24;63H[K[24;63H141,2         86%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3Hstring file = filename(spins);[24;63H[K[24;63H140,2         86%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H139,2         85%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H138,2         85%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3H[32mint[0m n=pow([33mstatic_cast[0m<[32mdouble[0m>([31m2[0m),spins);[24;63H[K[24;63H137,2         84%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H136,0-1       83%[1;1H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3Htime(&timer);[24;63H[K[24;63H135,2         83%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3H[32mtime_t[0m timer1;[24;63H[K[24;63H134,2         82%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3H[32mtime_t[0m timer;[24;63H[K[24;63H133,2         81%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H[32mint[0m run([32mint[0m spins){[24;63H[K[24;63H132,2         81%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H131,0-1       80%[1;1H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H130,0-1       80%[1;1H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H129,0-1       79%[1;1H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H}[24;63H[K[24;63H128,1         78%[1;1H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3H} [33melse[0m{ [33mreturn[0m file;}[24;63H[K[24;63H127,2         78%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;4H[33mreturn[0m [31m"stop"[0m;[24;63H[K[24;63H126,2         77%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;2H[34m//  cout << "file named "<<file<<" exists"<<endl; [0m[24;63H[K[24;63H125,2         77%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3H[33mif[0m(exists(file)){[23;1H[1m[34m@                                                                               [0m[24;63H[K[24;63H124,2         76%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H123,0-1       76%[1;1H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3Hstring file= string([31m"data/"[0m) + [31m"dataPeriAdjoint"[0m+str+[31m".dat"[0m;[24;63H[K[24;63H122,2         75%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H121,0-1       75%[1;1H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3Hstring str = ss.str();[24;63H[K[24;63H120,2         74%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3Hss << spins;[24;63H[K[24;63H119,2         73%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3Hstringstream ss;[24;63H[K[24;63H118,2         73%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;1Hstring filename([32mint[0m spins){[24;63H[K[24;63H117,2         72%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[24;63H[K[24;63H116,0-1       71%[1;1H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;1H}[24;63H[K[24;63H115,2         71%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3H[33mreturn[0m H;[24;63H[K[24;63H114,2         70%[1;2H[34h[?25h[?25l[1;23r[1;1H[L[1;24r[1;3HH=H+ b*zprod([31m2[0m,spins,spins,sz); [34m//this one is periodic boundary conditions [0m[24;63H[K[24;63H113,2         70%[1;2H[34h[?25h[?25l[24;63H[K[24;1H:[34h[?25hq[?25l:q[34h[?25h[?25l[24;1H[K[24;1H[?1l>[34h[?25h[?1049l[as4ae@node3 ising]$ ls
+[00m[01;32mcondor_doit-160408140541-CYozbXj8Kf.cmd[00m                 [01;32mdoit[00m
+[00mcondor_doit-160408140541-CYozbXj8Kf-node3.467511.0.err[00m  [00mheader.h[00m
+[00mcondor_doit-160408140541-CYozbXj8Kf-node3.467511.0.out[00m  [00mising.cpp[00m
+[00mcondor_doit-160408140541-CYozbXj8Kf-node3.467511.log[00m    [00mMakefile[00m
+[01;32mcondor_doit-160408140541-CYozbXj8Kf.sh[00m                  [00mmultirun.cpp[00m
+[01;34mdata[00m                                                    [00mscreenlog.0[00m
+[m[as4ae@node3 ising]$ vim data/
+[?1049h[?1h=[1;24r[34l[34h[?25h[23m[24m[0m[H[J[?25l[24;1H"data/" Illegal file name[1;1H[34m" ============================================================================
+" Netrw Directory Listing                                        [0m[36m(netrw v125)[0m
+[34m"   /net/students/home/as4ae/2015/Teo/TIsim/ising/data
+"   Sorted by[0m[33m      name[0m
+[34m"   Sort sequence:[0m[33m [\/]$[0m[34m,[0m[33m\.h$[0m[34m,[0m[33m\.c$[0m[34m,[0m[33m\.cpp$[0m[34m,[0m[33m*[0m[34m,[0m[33m\.o$[0m[34m,[0m[33m\.obj$[0m[34m,[0m[33m\.info$[0m[34m,[0m[33m\.swp$[0m[34m,[0m[33m\.bak$[0m[34m,[0m[33m\~[0m[6;1H[34m"   Quick Help: [0m<F1[36m>[0m[35m:[0mhelp  [36m-[0m[35m:[0mgo up dir  [36mD[0m[35m:[0mdelete  [36mR[0m[35m:[0mrename  [36ms[0m[35m:[0msort-by  [36mx[0m[35m:[0mexec
+[34m" ============================================================================
+..[0m[36m/[0m
+coolscreenthing.txt
+dataPeri10.dat
+dataPeri2.dat
+dataPeri3.dat
+dataPeri4.dat
+dataPeri5.dat
+dataPeri6.dat
+dataPeri7.dat
+dataPeri8.dat
+dataPeri9.dat
+dataPeriAdjoint10.dat
+dataPeriAdjoint11.dat
+dataPeriAdjoint12.dat
+dataPeriAdjoint13.dat
+dataPeriAdjoint2.dat[24;63H8,1           Top[8;1H[34h[?25h[?25l[24;1H[K[24;1H:[34h[?25hq[?25l:q[34h[?25h[?25l[24;1H[K[24;1H[?1l>[34h[?25h[?1049l[as4ae@node3 ising]$ ls
+[00m[01;32mcondor_doit-160408140541-CYozbXj8Kf.cmd[00m                 [01;32mdoit[00m
+[00mcondor_doit-160408140541-CYozbXj8Kf-node3.467511.0.err[00m  [00mheader.h[00m
+[00mcondor_doit-160408140541-CYozbXj8Kf-node3.467511.0.out[00m  [00mising.cpp[00m
+[00mcondor_doit-160408140541-CYozbXj8Kf-node3.467511.log[00m    [00mMakefile[00m
+[01;32mcondor_doit-160408140541-CYozbXj8Kf.sh[00m                  [00mmultirun.cpp[00m
+[01;34mdata[00m                                                    [00mscreenlog.0[00m
+[m[as4ae@node3 ising]$ vim [K[K[Kcd data/
+[as4ae@node3 data]$ ls
+[00m[00mcoolscreenthing.txt[00m  [00mdataPeri8.dat[00m          [00mdataPeriAdjoint4.dat[00m
+[00mdataPeri10.dat[00m       [00mdataPeri9.dat[00m          [00mdataPeriAdjoint5.dat[00m
+[00mdataPeri2.dat[00m        [00mdataPeriAdjoint10.dat[00m  [00mdataPeriAdjoint6.dat[00m
+[00mdataPeri3.dat[00m        [00mdataPeriAdjoint11.dat[00m  [00mdataPeriAdjoint7.dat[00m
+[00mdataPeri4.dat[00m        [00mdataPeriAdjoint12.dat[00m  [00mdataPeriAdjoint8.dat[00m
+[00mdataPeri5.dat[00m        [00mdataPeriAdjoint13.dat[00m  [00mdataPeriAdjoint9.dat[00m
+[00mdataPeri6.dat[00m        [00mdataPeriAdjoint2.dat[00m   [00mfit.log[00m
+[00mdataPeri7.dat[00m        [00mdataPeriAdjoint3.dat[00m   [00mgsenergies.dat[00m
+[m[as4ae@node3 data]$ cd ..
+[as4ae@node3 ising]$ condor_run [K[Knm as4ae
+condor_rnm: Command not found.
+[as4ae@node3 ising]$ condor_rnm as4ae[Pnm[P[1@m[P[P[1@r[1@m
+User as4ae's job(s) have been marked for removal.
+[as4ae@node3 ising]$ k[Kcondor_q
+
+
+-- Submitter: node3.galileo : <192.168.100.103:47477> : node3.galileo
+ ID      OWNER            SUBMITTED     RUN_TIME ST PRI SIZE CMD               
+356507.0   nice-user.vck8 11/9  17:17   0+00:00:00 H  0   0.0  simpex 356507 0   
+467506.0   dak5nb          4/8  11:05   0+01:53:11 R  0   664.1 condor_matlab-1604
+467508.0   dak5nb          4/8  12:54   0+01:13:49 R  0   927.7 condor_matlab-1604
+
+3 jobs; 0 idle, 2 running, 1 held
+[as4ae@node3 ising]$ ls
+[00m[01;32mcondor_doit-160408140541-CYozbXj8Kf.cmd[00m                 [01;32mdoit[00m
+[00mcondor_doit-160408140541-CYozbXj8Kf-node3.467511.0.err[00m  [00mheader.h[00m
+[00mcondor_doit-160408140541-CYozbXj8Kf-node3.467511.0.out[00m  [00mising.cpp[00m
+[00mcondor_doit-160408140541-CYozbXj8Kf-node3.467511.log[00m    [00mMakefile[00m
+[01;32mcondor_doit-160408140541-CYozbXj8Kf.sh[00m                  [00mmultirun.cpp[00m
+[01;34mdata[00m                                                    [00mscreenlog.0[00m
+[m[as4ae@node3 ising]$ cd data/
+[as4ae@node3 data]$ ls
+[00m[00mcoolscreenthing.txt[00m  [00mdataPeri8.dat[00m          [00mdataPeriAdjoint4.dat[00m
+[00mdataPeri10.dat[00m       [00mdataPeri9.dat[00m          [00mdataPeriAdjoint5.dat[00m
+[00mdataPeri2.dat[00m        [00mdataPeriAdjoint10.dat[00m  [00mdataPeriAdjoint6.dat[00m
+[00mdataPeri3.dat[00m        [00mdataPeriAdjoint11.dat[00m  [00mdataPeriAdjoint7.dat[00m
+[00mdataPeri4.dat[00m        [00mdataPeriAdjoint12.dat[00m  [00mdataPeriAdjoint8.dat[00m
+[00mdataPeri5.dat[00m        [00mdataPeriAdjoint13.dat[00m  [00mdataPeriAdjoint9.dat[00m
+[00mdataPeri6.dat[00m        [00mdataPeriAdjoint2.dat[00m   [00mfit.log[00m
+[00mdataPeri7.dat[00m        [00mdataPeriAdjoint3.dat[00m   [00mgsenergies.dat[00m
+[m[as4ae@node3 data]$ vim dataPeriAdjoint12.dat 
+[?1049h[?1h=[1;24r[34l[34h[?25h[23m[24m[0m[H[J[?25l[24;1H"dataPeriAdjoint12.dat" "dataPeriAdjoint12.dat" 1L, 1C[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [0m[24;63H1,0-1         All[1;1H[34h[?25h[?25l[24;1H[K[24;1H:[34h[?25hq[?25l:q[34h[?25h[?25l[24;1H[K[24;1H[?1l>[34h[?25h[?1049l[as4ae@node3 data]$ ls
+[00m[00mcoolscreenthing.txt[00m  [00mdataPeri8.dat[00m          [00mdataPeriAdjoint4.dat[00m
+[00mdataPeri10.dat[00m       [00mdataPeri9.dat[00m          [00mdataPeriAdjoint5.dat[00m
+[00mdataPeri2.dat[00m        [00mdataPeriAdjoint10.dat[00m  [00mdataPeriAdjoint6.dat[00m
+[00mdataPeri3.dat[00m        [00mdataPeriAdjoint11.dat[00m  [00mdataPeriAdjoint7.dat[00m
+[00mdataPeri4.dat[00m        [00mdataPeriAdjoint12.dat[00m  [00mdataPeriAdjoint8.dat[00m
+[00mdataPeri5.dat[00m        [00mdataPeriAdjoint13.dat[00m  [00mdataPeriAdjoint9.dat[00m
+[00mdataPeri6.dat[00m        [00mdataPeriAdjoint2.dat[00m   [00mfit.log[00m
+[00mdataPeri7.dat[00m        [00mdataPeriAdjoint3.dat[00m   [00mgsenergies.dat[00m
+[m[as4ae@node3 data]$ rm dataPeriAdjoint12.dat dataPeriPer[K[K[KAdjoint13.dat 
+[as4ae@node3 data]$ ls
+[00m[00mcoolscreenthing.txt[00m  [00mdataPeri8.dat[00m          [00mdataPeriAdjoint6.dat[00m
+[00mdataPeri10.dat[00m       [00mdataPeri9.dat[00m          [00mdataPeriAdjoint7.dat[00m
+[00mdataPeri2.dat[00m        [00mdataPeriAdjoint10.dat[00m  [00mdataPeriAdjoint8.dat[00m
+[00mdataPeri3.dat[00m        [00mdataPeriAdjoint11.dat[00m  [00mdataPeriAdjoint9.dat[00m
+[00mdataPeri4.dat[00m        [00mdataPeriAdjoint2.dat[00m   [00mfit.log[00m
+[00mdataPeri5.dat[00m        [00mdataPeriAdjoint3.dat[00m   [00mgsenergies.dat[00m
+[00mdataPeri6.dat[00m        [00mdataPeriAdjoint4.dat[00m
+[00mdataPeri7.dat[00m        [00mdataPeriAdjoint5.dat[00m
+[m[as4ae@node3 data]$ vim fit.log	
+[?1049h[?1h=[1;24r[34l[34h[?25h[23m[24m[0m[H[J[?25l[24;1H"fit.log" "fit.log" 175L, 4795C[3;1H*******************************************************************************
+Fri Apr  8 13:42:15 2016
+
+
+FIT:    data read from 'gsenergies.dat' using 1:2[8;9Hformat = x:z[9;9H#datapoints = 10[10;9Hresiduals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values[17;2HIteration 0
+ WSSR[8C: 0.563539[10Cdelta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0[17Climit for stopping : 1e-05
+ lambda   : 0.123688
+
+initial set of free parameter values[24;63H1,0-1         Top[1;1H[34h[?25h[?25l[24;1H[K[24;1H:[34h[?25hq[?25l:q[34h[?25h[?25l[24;1H[K[24;1H[?1l>[34h[?25h[?1049l[as4ae@node3 data]$ ls
+[00m[00mcoolscreenthing.txt[00m  [00mdataPeri8.dat[00m          [00mdataPeriAdjoint6.dat[00m
+[00mdataPeri10.dat[00m       [00mdataPeri9.dat[00m          [00mdataPeriAdjoint7.dat[00m
+[00mdataPeri2.dat[00m        [00mdataPeriAdjoint10.dat[00m  [00mdataPeriAdjoint8.dat[00m
+[00mdataPeri3.dat[00m        [00mdataPeriAdjoint11.dat[00m  [00mdataPeriAdjoint9.dat[00m
+[00mdataPeri4.dat[00m        [00mdataPeriAdjoint2.dat[00m   [00mfit.log[00m
+[00mdataPeri5.dat[00m        [00mdataPeriAdjoint3.dat[00m   [00mgsenergies.dat[00m
+[00mdataPeri6.dat[00m        [00mdataPeriAdjoint4.dat[00m
+[00mdataPeri7.dat[00m        [00mdataPeriAdjoint5.dat[00m
+[m[as4ae@node3 data]$ :[Kcd..
+cd..: Command not found.
+[as4ae@node3 data]$ cd ..
+[as4ae@node3 ising]$ ls
+[00m[01;32mcondor_doit-160408140541-CYozbXj8Kf.cmd[00m                 [01;32mdoit[00m
+[00mcondor_doit-160408140541-CYozbXj8Kf-node3.467511.0.err[00m  [00mheader.h[00m
+[00mcondor_doit-160408140541-CYozbXj8Kf-node3.467511.0.out[00m  [00mising.cpp[00m
+[00mcondor_doit-160408140541-CYozbXj8Kf-node3.467511.log[00m    [00mMakefile[00m
+[01;32mcondor_doit-160408140541-CYozbXj8Kf.sh[00m                  [00mmultirun.cpp[00m
+[01;34mdata[00m                                                    [00mscreenlog.0[00m
+[m[as4ae@node3 ising]$ condor[K[K[K[K[K[Krun doit
+Log will be written into condor_doit-160408140936-fU7WCDCMjH-node3.467512.log.
+[as4ae@node3 ising]$ ls
+[00m[01;32mcondor_doit-160408140541-CYozbXj8Kf.cmd[00m
+[00mcondor_doit-160408140541-CYozbXj8Kf-node3.467511.0.err[00m
+[00mcondor_doit-160408140541-CYozbXj8Kf-node3.467511.0.out[00m
+[00mcondor_doit-160408140541-CYozbXj8Kf-node3.467511.log[00m
+[01;32mcondor_doit-160408140541-CYozbXj8Kf.sh[00m
+[01;32mcondor_doit-160408140936-fU7WCDCMjH.cmd[00m
+[00mcondor_doit-160408140936-fU7WCDCMjH-node3.467512.0.err[00m
+[00mcondor_doit-160408140936-fU7WCDCMjH-node3.467512.0.out[00m
+[00mcondor_doit-160408140936-fU7WCDCMjH-node3.467512.log[00m
+[01;32mcondor_doit-160408140936-fU7WCDCMjH.sh[00m
+[01;34mdata[00m
+[01;32mdoit[00m
+[00mheader.h[00m
+[00mising.cpp[00m
+[00mMakefile[00m
+[00mmultirun.cpp[00m
+[00mscreenlog.0[00m
+[m[as4ae@node3 ising]$ rm condor_doit-160408140541-CYozbXj8Kf.*
+[as4ae@node3 ising]$ ls
+[00m[00mcondor_doit-160408140541-CYozbXj8Kf-node3.467511.0.err[00m  [01;34mdata[00m
+[00mcondor_doit-160408140541-CYozbXj8Kf-node3.467511.0.out[00m  [01;32mdoit[00m
+[00mcondor_doit-160408140541-CYozbXj8Kf-node3.467511.log[00m    [00mheader.h[00m
+[01;32mcondor_doit-160408140936-fU7WCDCMjH.cmd[00m                 [00mising.cpp[00m
+[00mcondor_doit-160408140936-fU7WCDCMjH-node3.467512.0.err[00m  [00mMakefile[00m
+[00mcondor_doit-160408140936-fU7WCDCMjH-node3.467512.0.out[00m  [00mmultirun.cpp[00m
+[00mcondor_doit-160408140936-fU7WCDCMjH-node3.467512.log[00m    [00mscreenlog.0[00m
+[01;32mcondor_doit-160408140936-fU7WCDCMjH.sh[00m
+[m[as4ae@node3 ising]$ rm condor_doit-160408140541*
+[as4ae@node3 ising]$ ls
+[00m[01;32mcondor_doit-160408140936-fU7WCDCMjH.cmd[00m                 [01;32mdoit[00m
+[00mcondor_doit-160408140936-fU7WCDCMjH-node3.467512.0.err[00m  [00mheader.h[00m
+[00mcondor_doit-160408140936-fU7WCDCMjH-node3.467512.0.out[00m  [00mising.cpp[00m
+[00mcondor_doit-160408140936-fU7WCDCMjH-node3.467512.log[00m    [00mMakefile[00m
+[01;32mcondor_doit-160408140936-fU7WCDCMjH.sh[00m                  [00mmultirun.cpp[00m
+[01;34mdata[00m                                                    [00mscreenlog.0[00m
+[m[as4ae@node3 ising]$ condor_q
+
+
+-- Submitter: node3.galileo : <192.168.100.103:47477> : node3.galileo
+ ID      OWNER            SUBMITTED     RUN_TIME ST PRI SIZE CMD               
+356507.0   nice-user.vck8 11/9  17:17   0+00:00:00 H  0   0.0  simpex 356507 0   
+467506.0   dak5nb          4/8  11:05   0+01:55:38 R  0   664.1 condor_matlab-1604
+467508.0   dak5nb          4/8  12:54   0+01:16:16 R  0   927.7 condor_matlab-1604
+467512.0   as4ae           4/8  14:09   0+00:01:18 R  0   9.8  condor_doit-160408
+
+4 jobs; 0 idle, 3 running, 1 held
+[as4ae@node3 ising]$ 

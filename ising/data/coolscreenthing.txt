@@ -1,0 +1,5 @@
+so there is this thing if you do 
+screen
+it makes a screen that can run in the background. If you want to let it be in the background hit ctrl-a d 
+if i want to reattatch it, ie bring to foreground hit
+screen -r 

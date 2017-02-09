@@ -1,0 +1,13 @@
+
+Sim makes 2 file one with eigenvalues one with eigenvectors.
+the Process file takes these and makes a text file called new.dat with just
+eigenvalues and kx values. 
+the splitfile just takes the top and bottom half of new.dat and makes new .dat
+files.
+
+i've made a makefile that does all this for us so just type make and we are
+good
+
+you can go into gnuplot and use the command 
+plot "new.dat" using 2:1
+using 2:1 just tells it what the x and y axis should be.
